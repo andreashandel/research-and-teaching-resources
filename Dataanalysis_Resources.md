@@ -1,6 +1,7 @@
 #Resources to do Data Analysis (in R)
 
 *List maintained by Andreas Handel (ahandel@uga.edu). Last updated 2/23/2016.*
+
 *If you know of other good resources, please let me know.*
 
 Approximate level of difficulty is indicated in parentheses
