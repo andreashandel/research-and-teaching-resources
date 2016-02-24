@@ -1,46 +1,44 @@
 
-***Resources to learn R***
+#Resources to learn R
 
 *List maintained by Andreas Handel (ahandel@uga.edu). Last updated 10/8/2015. If you know of other good resources, please let me know*
 
+**Online Courses for R:**
 
-*Online Courses for R:*
-
--   Some are listed here:
-    http://www.r-bloggers.com/moocs-and-courses-to-learn-r/
+-   [DataCamp R online tutorials:](https://www.datacamp.com/)
     (mixed levels)
 
--   DataCamp R online tutorials: https://www.datacamp.com/
+-   [Swirl](http://swirlstats.com/) – an R package that teaches R interactively inside R
     (mixed levels)
 
--   Swirl – an R package that teaches R interactively inside R
+-   [Try R, a free course at codeschool.com](https://www.codeschool.com/courses/try-r)
+
+-   Someone else's list of R resources:](http://www.r-bloggers.com/moocs-and-courses-to-learn-r/)
     (mixed levels)
 
--   Try R at codeschoo.com: http://tryr.codeschool.com
-
-*R books and tutorials:*
+**R books and tutorials:**
 
 -   http://www.computerworld.com/s/article/9239625/Beginner\_s\_guide\_to\_R\_Introduction (basic)
 
 -   http://www.r-bloggers.com/an-r-meta-book/
 
--   Almost all of the whole “use R” series is free from Springer Online
-    through UGA
+-   [Springer has a series of books called “use R”](http://www.springer.com/series/6991) 
+	(most are free from Springer Online through UGA)
 
+- 	Roger Peng's ["R programming for data science"](https://leanpub.com/rprogramming) book on Leanpub	
+	
 -   “Advanced R” by Hadley Wickham for more advanced R coding:
     http://adv-r.had.co.nz/
 
-*R Online Resources:*
+**General R Online Resources:**
 
--   r-bloggers.com – an aggregation of blogs about all things R
+-   [R bloggers)(r-bloggers.com) – an aggregation of blogs about all things R
 
--   http://rforpublichealth.blogspot.com/ (not that frequently updated)
+-   [A great collection of R resources and tutorials:](http://www.ats.ucla.edu/stat/r/)
 
--   http://www.ats.ucla.edu/stat/r/
+-   [A very unique pinterest board :) ](http://www.pinterest.com/zellner/fun-projects-for-r/)
 
--   <http://www.pinterest.com/zellner/fun-projects-for-r/>
-
--   A list of “the best” R tools: <https://github.com/qinwf/awesome-R>
+-   [A list of “the best” R tools:] (https://github.com/qinwf/awesome-R)
 
 -   Convenient “cheat sheets” for some important R tasks:
     <https://www.rstudio.com/resources/cheatsheets/>
@@ -51,7 +49,7 @@
 -   Collection of links for R learning:
     http://blog.revolutionanalytics.com/2015/10/learning-r-oct-2015.html
 
-*R packages:*
+**R packages:**
 
 -   Lots of potentially useful ones. The “Task View” sorting R packages
     into categories is often useful:
@@ -65,13 +63,13 @@
 
 -   “R Packages” book: http://r-pkgs.had.co.nz/
 
-*R plotting:*
+**R plotting:**
 
 -   R graph Catalog: <http://shinyapps.stat.ubc.ca/r-graph-catalog/>
 
 -   ggplot2 package: http://ggplot2.org/
 
-*R & Shiny:*
+**R and Shiny:**
 
 -   <http://www.showmeshiny.com/>
 
