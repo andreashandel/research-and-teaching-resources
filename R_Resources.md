@@ -1,6 +1,7 @@
 #Resources to learn R
 
 *List maintained by Andreas Handel (ahandel@uga.edu). Last updated 2/23/2016.*
+
 *If you know of other good resources, please let me know.*
 
 **Online Courses for R:**
