@@ -1,6 +1,6 @@
 #Resources to do Infectious Disease Modeling (in R)
 
-*List maintained by Andreas Handel (ahandel@uga.edu). Last updated 8/22/2018.*
+*List maintained by Andreas Handel (ahandel@uga.edu). Last updated 8/22/2016.*
 
 *If you know of other good resources, please let me know.*
 
