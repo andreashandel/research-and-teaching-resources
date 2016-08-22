@@ -1,6 +1,6 @@
 #Resources to do Data Analysis (in R)
 
-*List maintained by Andreas Handel (ahandel@uga.edu). Last updated 2/23/2016.*
+*List maintained by Andreas Handel (ahandel@uga.edu). Last updated 8/22/2018.*
 
 *If you know of other good resources, please let me know.*
 
@@ -24,6 +24,8 @@ Approximate level of difficulty is indicated in parentheses
     edX, Udacity, … (mixed)
 
 -   http://varianceexplained.org/RData/
+
+
 
 ###Data Analysis books:
 
@@ -86,10 +88,37 @@ Approximate level of difficulty is indicated in parentheses
 
 -   mlR: https://github.com/mlr-org/mlr
 
+
+
 ##Specific Topics
+
+###Data cleaning and checking
+
+-   R packages tidyr, plyr, dplyr, validate, vtreat
+
+
+
+###Data visualization and exploratory analysis
+
+-   R package DescTools, rattle
+
 
 ###Missing Data/Imputation
 
 -   R packages: mi, mice, Amelia, missforest, imputation
 
 -   Little & Rubin “Statistical Analysis with Missing Data, 2nd Edition”
+
+
+##Teaching Resources
+
+###Good introductory articles
+
+
+- (Nice 'explanation' of the p-value)[http://fivethirtyeight.com/features/not-even-scientists-can-easily-explain-p-values/]
+
+- (Another stab at the p-values)[ http://fivethirtyeight.com/features/statisticians-found-one-thing-they-can-agree-on-its-time-to-stop-misusing-p-values/]
+
+
+
+
