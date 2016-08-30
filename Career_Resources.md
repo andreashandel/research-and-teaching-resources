@@ -10,4 +10,5 @@
 
 - 	[Thoughts on doing a postdoc or not](https://www.insidehighered.com/advice/2016/08/23/should-you-pursue-postdoc-or-not-essay)
 
+- 	[(Academic) career related essays](https://www.insidehighered.com/career-advice/carpe-careers)
 
