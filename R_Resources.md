@@ -72,6 +72,8 @@
 
 -   [Shiny examples](http://www.showmeshiny.com/)
 
+-   [Collection of Shiny tips and tricks](https://github.com/daattali/advanced-shiny)
+
 
 **Data Analysis in R:**
 

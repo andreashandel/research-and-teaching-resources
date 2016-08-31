@@ -12,3 +12,4 @@
 
 - 	[(Academic) career related essays](https://www.insidehighered.com/career-advice/carpe-careers)
 
+- [A collection of resources on (scientific) career planning](http://www.nature.com/scitable/topic/career-planning-14121550) from the Nature Publishing Group.

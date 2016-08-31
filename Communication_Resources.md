@@ -5,6 +5,10 @@
 *If you know of other good resources, please let me know.*
 
 
+###General
+
+- [A collection of resources on science communication](http://www.nature.com/scitable/topic/scientific-communication-14121566) from the Nature Publishing Group.
+
 ###Publishing
 
 Since this is the mainstay of academic communication, there is an extra list just on publishing.
