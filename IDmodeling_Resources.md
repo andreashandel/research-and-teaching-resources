@@ -9,6 +9,7 @@
 
 * The folks behind the [Epidemics MOOC](https://www.coursera.org/learn/epidemics) produced [a webpage with interesting ID related resources](http://epidemics.psu.edu/)
 
+* [A number of teaching resources for various aspects of infectious disease dynamics](https://nrich.maths.org/epidemic)
 
 ##Books
 Sorted in order of difficulty (according to my opinion)
