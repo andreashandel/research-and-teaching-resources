@@ -20,6 +20,8 @@
 
 -   [YaRI - a short R tutorial I wrote (before many of the much better resources like swirl and DataCamp existed)](http://handelgroup.uga.edu/resources_teaching/)
 
+- 	[YaRrr! The Pirate’s Guide to R:](http://nathanieldphillips.com/thepiratesguidetor/) A nice R introduction with a piratey bend
+
 -   [Computerworld's R beginner guide](http://www.computerworld.com/s/article/9239625/Beginner\_s\_guide\_to\_R\_Introduction) 
 
 -   [A list of resources on specific topics:] (http://www.r-bloggers.com/an-r-meta-book/)
