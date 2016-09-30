@@ -29,14 +29,14 @@ Approximate level of difficulty is indicated in parentheses
 
 ###Data Analysis books:
 
+* [R for Data Science](http://r4ds.had.co.nz/): Probably the first book you should read if you plan on doing any serious data analysis in R. The focus is on the initial steps of an analysis (usually the most important ones). Not much coverage of statistical modeling. The book is freely available online.
+
+* [Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/): This book is your logical next step. Once you got your data cleaned and done preliminary analyses following the instructions in the previous book, this book will teach different statistical modeling/analysis approaches. Also R based and freely available online.
+
+* [Elements of Statistical Learning](http://statweb.stanford.edu/~tibs/ElemStatLearn/): This is the more advanced version by some of the same authors of the previous book. It gets technical, so only suitable once you got the basics figured out.
+
 -   Statistical foundations of machine learning:
     <https://www.otexts.org/book/sfml> (intermediate)
-
--   Introduction to Statistical Learning:
-    <http://www-bcf.usc.edu/~gareth/ISL/> (intermediate)
-
--   Elements of Statistical Learning:
-    <http://statweb.stanford.edu/~tibs/ElemStatLearn/> (advanced)
 
 -   Introduction to Data Science:
     <http://jsresearch.net/index.html> (basic)
