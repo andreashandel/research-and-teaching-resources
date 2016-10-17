@@ -8,10 +8,16 @@ Approximate level of difficulty is indicated in parentheses
 
 ##General Sources
 
+### Other lists
+
+[Awesome data science](https://github.com/bulutyazilim/awesome-datascience): Someone else's list of resources related to data science.
+
+* [Machine learning book list](https://github.com/josephmisiti/awesome-machine-learning/blob/master/books.md): A list of free online books concerning all things machine learning and data analysis.
+
+
 ###Online Courses for Data Analysis:
 
--   All courses in the “Data Science” Specialization on Coursera
-    (basic - intermediate)
+[All courses in the “Data Science” Specialization on Coursera](https://www.coursera.org/specializations/jhu-data-science)
 
 -   “Introduction to Statistical Learning” on edX/Stanford
     Online (intermediate). Also see here:
@@ -35,8 +41,9 @@ Approximate level of difficulty is indicated in parentheses
 
 * [Elements of Statistical Learning](http://statweb.stanford.edu/~tibs/ElemStatLearn/): This is the more advanced version by some of the same authors of the previous book. It gets technical, so only suitable once you got the basics figured out.
 
--   Statistical foundations of machine learning:
-    <https://www.otexts.org/book/sfml> (intermediate)
+
+
+* [Statistical foundations of machine learning:](https://www.otexts.org/book/sfml) 
 
 -   Introduction to Data Science:
     <http://jsresearch.net/index.html> (basic)
