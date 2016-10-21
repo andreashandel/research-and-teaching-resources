@@ -105,10 +105,6 @@ Approximate level of difficulty is indicated in parentheses
 
 
 
-###Data visualization and exploratory analysis
-
--   R package DescTools, rattle
-
 
 ###Missing Data/Imputation
 
