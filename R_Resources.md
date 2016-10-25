@@ -4,58 +4,55 @@
 
 *If you know of other good resources, please let me know.*
 
-**Online Courses for R:**
+##Online Courses for R
 
--   [DataCamp R online tutorials:](https://www.datacamp.com/)
-    All levels of difficulty, good interactive exercises with a nice graphical interface. Some courses are completely free, for others a paid subscription is required. The student version of the subscription is very reasonable (currently $9 per month).
+*  [DataCamp R online tutorials:](https://www.datacamp.com/) All levels of difficulty, good interactive exercises with a nice graphical interface. Some courses are completely free, for others a paid subscription is required. The student version of the subscription is very reasonable (currently $9 per month).
 
--   [Swirl](http://swirlstats.com/) 
-	An R package that teaches R interactively inside R. Not as polished as DataCamp, but good interactivity, great motivating feedback/messages, beginner and intermediate levels. Completely free.
+* [Swirl:](http://swirlstats.com/) An R package that teaches R interactively inside R. Not as polished as DataCamp, but good interactivity, great motivating feedback/messages, beginner and intermediate levels. Completely free.
 
--   [Try R, a free course at codeschool.com](https://www.codeschool.com/courses/try-r)
+* [Try R, a free course at codeschool.com](https://www.codeschool.com/courses/try-r)
 
--   [Someone else's list of R resources](http://www.r-bloggers.com/moocs-and-courses-to-learn-r/)
+* [Someone else's list of R resources](http://www.r-bloggers.com/moocs-and-courses-to-learn-r/)
  
-**R books and tutorials:**
 
--   [YaRI - a short R tutorial I wrote (before many of the much better resources like swirl and DataCamp existed)](http://handelgroup.uga.edu/resources_teaching/)
+## R books and tutorials
 
-- 	[YaRrr! The Pirate’s Guide to R:](http://nathanieldphillips.com/thepiratesguidetor/) A nice R introduction with a piratey bend
+* [YaRI - a short R tutorial I wrote (before many of the much better resources like swirl and DataCamp existed)](http://handelgroup.uga.edu/resources_teaching/)
 
--   [Computerworld's R beginner guide](http://www.computerworld.com/s/article/9239625/Beginner\_s\_guide\_to\_R\_Introduction) 
+* [YaRrr! The Pirate's Guide to R:](http://nathanieldphillips.com/thepiratesguidetor/) A nice R introduction with a piratey bend
 
--   [A list of resources on specific topics:] (http://www.r-bloggers.com/an-r-meta-book/)
+* [Computerworld's R beginner guide](http://www.computerworld.com/s/article/9239625/Beginner\_s\_guide\_to\_R\_Introduction) 
 
--   [Springer has a series of books called “use R”](http://www.springer.com/series/6991) 
-	A long and growing series of books on a lot of different R topics. From beginner to advanced. Many university libraries have a subscription to Springer Online, which allows you to get the books for free.
+* ['R Meta book' - a list of resources on specific topics:](http://www.r-bloggers.com/an-r-meta-book/)
 
-- 	Roger Peng's ["R programming for data science"](https://leanpub.com/rprogramming) book on Leanpub. Name your own price.	
+* [Springer has a series of books called 'Use R':](http://www.springer.com/series/6991) A long and growing series of books on a lot of different R topics. From beginner to advanced. Many university libraries have a subscription to Springer Online, which allows you to get the books for free.
+
+* Roger Peng's ["R programming for data science"](https://leanpub.com/rprogramming) book on Leanpub. Name your own price.	
 	
--   [“Advanced R” by Hadley Wickham for more advanced R coding](http://adv-r.had.co.nz/)
+* ["Advanced R" by Hadley Wickham for more advanced R coding](http://adv-r.had.co.nz/)
 
 
-**General R Online Resources:**
+## General R Online Resources
 
--   [R bloggers](r-bloggers.com) – an aggregation of blogs about all things R
+-   [R bloggers](r-bloggers.com) an aggregation of blogs about all things R
 
 -   [A great collection of R resources and tutorials](http://www.ats.ucla.edu/stat/r/)
 
 -   [A very unique Pinterest board :) ](http://www.pinterest.com/zellner/fun-projects-for-r/)
 
--   [A list of “the best” R tools] (https://github.com/qinwf/awesome-R)
+-   [A list of 'the best'”' R tools] (https://github.com/qinwf/awesome-R)
 
--   [Convenient “cheat sheets” for some important R tasks}(https://www.rstudio.com/resources/cheatsheets/)
+-   [Convenient cheat sheet for some important R tasks}(https://www.rstudio.com/resources/cheatsheets/)
 
 -   [Resource collection to do useful data analysis related tasks in R](http://rddj.info/)
 
 -   [Collection of links for R learning](http://blog.revolutionanalytics.com/2015/10/learning-r-oct-2015.html)
 
+- [R Documentation:](https://www.rdocumentation.org/) is a webpage and R package that tries to enhance the help/documentation files for R and its packages.
 
 **R packages:**
 
--   Lots of potentially useful ones. The “Task View” sorting R packages
-    into categories is often useful:
-    <http://cran.r-project.org/web/views/>
+* Lots of potentially useful ones. [The Task View sorting R packages into categories is often useful:](http://cran.r-project.org/web/views/)
 
 -   [Tutorials for the dplyr package](http://rpubs.com/justmarkham/)
 
