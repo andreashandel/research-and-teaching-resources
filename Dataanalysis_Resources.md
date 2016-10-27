@@ -4,7 +4,6 @@
 
 *If you know of other good resources, please let me know.*
 
-Approximate level of difficulty is indicated in parentheses
 
 ##General Sources
 
@@ -55,46 +54,12 @@ Approximate level of difficulty is indicated in parentheses
 
 -   <http://www.computerworld.com/s/article/9243391/4_data_wrangling_tasks_in_R_for_advanced_beginners> (intermediate)
 
-###Some data Sources:
-
--   Project Tycho: https://www.tycho.pitt.edu/
-
--   Quandl: http://www.quandl.com
-
--   NHANES: http://www.cdc.gov/nchs/nhanes.htm
-
--   SEER: http://seer.cancer.gov/
-
--   CDC WONDER: http://wonder.cdc.gov/
-
--   HCUP (collection of databases) http://www.hcup-us.ahrq.gov
-
--   http://www.icpsr.umich.edu/
-
--   clinicalstudydatarequest.com
-
--   <http://www.data.gov/>
-
--   <http://data.un.org/>
-
--   http://acrdc.gsu.edu/index.html
-
--   <https://www.healthdata.gov/>
-
--   <http://www.healthdataconsortium.org/>
-
--   <http://mran.revolutionanalytics.com/documents/data/>
-
--   <http://www.inside-r.org/howto/finding-data-internet>
-
--   http://www.arilamstein.com/blog/2015/11/09/interesting-datasets-i-recently-learned-about/
 
 ###Useful data-analysis related R packages:
 
--   Caret: http://topepo.github.io/caret/index.html
+* [Caret:](http://topepo.github.io/caret/index.html) 
 
--   mlR: https://github.com/mlr-org/mlr
-
+* [Machine Learning in R - mlR:](https://github.com/mlr-org/mlr)
 
 
 ##Specific Topics
@@ -105,22 +70,21 @@ Approximate level of difficulty is indicated in parentheses
 
 
 
-
 ###Missing Data/Imputation
 
 -   R packages: mi, mice, Amelia, missforest, imputation
 
--   Little & Rubin “Statistical Analysis with Missing Data, 2nd Edition”
+-   Little & Rubin "Statistical Analysis with Missing Data, 2nd Edition"
 
 
 ##Teaching Resources
 
+
 ###Good introductory articles
 
+- [Nice 'explanation' of the p-value]([http://fivethirtyeight.com/features/not-even-scientists-can-easily-explain-p-values/)
 
-- (Nice 'explanation' of the p-value)[http://fivethirtyeight.com/features/not-even-scientists-can-easily-explain-p-values/]
-
-- (Another stab at the p-values)[ http://fivethirtyeight.com/features/statisticians-found-one-thing-they-can-agree-on-its-time-to-stop-misusing-p-values/]
+- [Another stab at the p-values]( http://fivethirtyeight.com/features/statisticians-found-one-thing-they-can-agree-on-its-time-to-stop-misusing-p-values/)
 
 
 
