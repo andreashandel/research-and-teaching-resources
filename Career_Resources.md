@@ -21,3 +21,7 @@
 - 	[Thoughts on doing a postdoc or not](https://www.insidehighered.com/advice/2016/08/23/should-you-pursue-postdoc-or-not-essay)
 
 
+
+###Academic job search/hiring
+
+* [This blog post provides a nice description how applications for faculty positions are reviewed](https://chroniclevitae.com/news/1599-reading-your-application-file). From my own experience having been on and chaired several faculty searches, I think it's a fairly accurate description.
