@@ -12,9 +12,10 @@ __Conventions:__ The data is assumed to be a data frame called `dat`, I'm using 
 `newdat <- dat %>% rename(newvarname = oldvarname)`  
 
 ###Renaming values of a a variable
-In this example, the value 1 in varname is replaced by 'infected'
+In this example, the value infctd in varname is replaced by 'infected'
 
-`newdat <- dat %>% mutate(varname = replace(varname, '1','infected')`  
+`newdat <- dat %>% mutate(varname = replace(varname, varname=='infctd','infected')`  
+
 
 ###Resorting variables
 While usually it doesn't matter at which position which variable is, sometimes it's more convenient to for instance have the outcome
