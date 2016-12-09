@@ -1,8 +1,8 @@
 #R data cleaning tasks cheat-sheet
 
-This list is a collection of specific commands to do specific, often-needed data cleaning and prepping tasks in R. Most of the commands use the ['tidyverse' packages](https://github.com/hadley/tidyverse). So to make sure commands work, you need the corresponding packages, most simply done by `install.packages(tidyverse)` to get them _all_.
+This list is a collection of specific commands to do specific, often-needed (at least by me) data cleaning and prepping tasks in R. Most of the commands use the ['tidyverse' packages](https://github.com/hadley/tidyverse). So to make sure commands work, you need the corresponding packages, most simply done by `install.packages(tidyverse)` to get them _all_.
 
-*List maintained by Andreas Handel (ahandel@uga.edu). Last updated 9/22/2016.*
+*List maintained by Andreas Handel (ahandel@uga.edu). Last updated 12/9/2016.*
 *If you know of other good examples, please let me know.*
 
 
@@ -18,9 +18,14 @@ In this example, the value infctd in varname is replaced by 'infected'
 
 
 ###Resorting variables
-While usually it doesn't matter at which position which variable is, sometimes it's more convenient to for instance have the outcome
+While usually it doesn't matter at which position which variable is, sometimes it's more convenient to for instance have the outcome at the beginning. This can be done as follows:
 
 `newdat <- dat %>% select(outcome, everything() )`
+
+More general sorting/arranging can be done like this (if you don't have too many variables):
+
+`newdat <- dat %>% select(var1, var2, var3, var4, ... )`
+
 
 ###Remove variables
 
@@ -35,5 +40,11 @@ Or delete the ones you don't want to keep
 
 ###Checking for NA
 
+Lists numbers of NA for each column/variable
+`print(colSums(is.na(dat)))` 
+
+Nice graphical way using the Amelia package
+
+`library(Amelia); missmap(dat)`
 
 
