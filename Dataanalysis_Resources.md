@@ -9,7 +9,7 @@
 
 ### Other lists
 
-[Awesome data science](https://github.com/bulutyazilim/awesome-datascience): Someone else's list of resources related to data science.
+* [Awesome data science](https://github.com/bulutyazilim/awesome-datascience): Someone else's list of resources related to data science.
 
 * [Machine learning book list](https://github.com/josephmisiti/awesome-machine-learning/blob/master/books.md): A list of free online books concerning all things machine learning and data analysis.
 
@@ -44,11 +44,10 @@
 
 * [Statistical foundations of machine learning:](https://www.otexts.org/book/sfml) 
 
--   Introduction to Data Science:
-    <http://jsresearch.net/index.html> (basic)
+* [Introduction to Data Science:](http://jsresearch.net/index.html)
 
--   Forecasting: principles and practice :
-    <https://www.otexts.org/fpp/> (intermediate)
+- [Forecasting: principles and practice:](https://www.otexts.org/fpp/)
+
 
 ###Online tutorials:
 

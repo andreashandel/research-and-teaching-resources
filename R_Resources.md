@@ -6,7 +6,7 @@
 
 ##Online Courses for R
 
-*  [DataCamp R online tutorials:](https://www.datacamp.com/) All levels of difficulty, good interactive exercises with a nice graphical interface. Some courses are completely free, for others a paid subscription is required. The student version of the subscription is very reasonable (currently $9 per month).
+*  [DataCamp R online tutorials:](https://www.datacamp.com/) All levels of difficulty, good interactive exercises with a nice graphical interface. Some courses are completely free, for others a paid subscription is required. 
 
 * [Swirl:](http://swirlstats.com/) An R package that teaches R interactively inside R. Not as polished as DataCamp, but good interactivity, great motivating feedback/messages, beginner and intermediate levels. Completely free.
 
