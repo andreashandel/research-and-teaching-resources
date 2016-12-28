@@ -1,4 +1,4 @@
-#Resources to do Data Analysis (in R)
+#Resources to do Data Analysis/Statistics (in R)
 
 *List maintained by [Andreas Handel](http://handelgroup.uga.edu/).*
 
@@ -75,9 +75,9 @@
 
 ### Good introductory articles
 
-- [Nice 'explanation' of p-values]([http://fivethirtyeight.com/features/not-even-scientists-can-easily-explain-p-values/)
+* [Nice discussion of p-values](http://fivethirtyeight.com/features/not-even-scientists-can-easily-explain-p-values/)
 
-- [Another stab at p-values]( http://fivethirtyeight.com/features/statisticians-found-one-thing-they-can-agree-on-its-time-to-stop-misusing-p-values/)
+* [Another stab at p-values](http://fivethirtyeight.com/features/statisticians-found-one-thing-they-can-agree-on-its-time-to-stop-misusing-p-values/)
 
 
 
