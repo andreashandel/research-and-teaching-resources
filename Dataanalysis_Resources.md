@@ -4,7 +4,7 @@
 
 *If you know of other good resources, please contribute or let me know.*
 
-*Last updated 12/22/2016.*
+*Last updated 12/29/2016.*
 
 
 ##General Sources
@@ -52,6 +52,14 @@
 * [Caret](http://topepo.github.io/caret/index.html) - a package that allows many different modeling approaches from a single interface
 
 * [Machine Learning in R - mlR](https://github.com/mlr-org/mlr) - similar concept as Caret but different strengths and weaknesses. I would check out both.
+
+-   [Computerworld tutorial on data wrangling](http://www.computerworld.com/s/article/9243391/4\_data\_wrangling\_tasks\_in\_R\_for\_advanced\_beginners)
+    (intermediate level)
+
+*  [Collection of R packages for dealing with data](http://www.computerworld.com/article/2921176/business-intelligence/great-r-packages-for-data-import-wrangling-visualization.html)
+
+* [The tidyverse](http://tidyverse.org/) - Hadley Wickham's packages for all things data analysis.
+
 
 
 ## Specific Topics
