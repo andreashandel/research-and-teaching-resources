@@ -1,6 +1,6 @@
 #Resources to do Exploratory Data Analysis and Visualization (mainly in R)
 
-*List maintained by Andreas Handel (ahandel@uga.edu). Last updated 10/21/2016.*
+*List maintained by Andreas Handel (ahandel@uga.edu). Last updated 7/21/2017.*
 
 *If you know of other good resources, please let me know.*
 
@@ -16,9 +16,9 @@
 
 * [R Graph Gallery](http://www.r-graph-gallery.com/): Has lots of examples of graphs and plots in R, including the underlying code that produced the graph. Great place to find a graph similar to one you'd like to make, take the code and adjust it.
 
+* [This website](http://www.sthda.com/english/wiki/ggplot2-easy-way-to-mix-multiple-graphs-on-the-same-page) has a nice article describing ways to create different multi-panel plots.
 
 
+###Exploratory analysis
 
-###Data visualization and exploratory analysis
-
--   R package DescTools, rattle
+* R packages DescTools, rattle
