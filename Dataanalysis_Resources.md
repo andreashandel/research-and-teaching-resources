@@ -15,6 +15,7 @@
 
 * [Machine learning book list](https://github.com/josephmisiti/awesome-machine-learning/blob/master/books.md) - A list of free online books concerning all things machine learning and data analysis.
 
+* [A machine learning list of terms and definitions.](https://developers.google.com/machine-learning/glossary/)
 
 ### Online Courses for Data Analysis
 
