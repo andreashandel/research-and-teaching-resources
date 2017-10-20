@@ -28,15 +28,17 @@
 
 * [SEER](http://seer.cancer.gov/) - Cancer data
 
--   CDC WONDER: http://wonder.cdc.gov/
+* [CDC WONDER](http://wonder.cdc.gov/)
 
--   HCUP (collection of databases) http://www.hcup-us.ahrq.gov
+* [Healthy People Website](https://www.healthypeople.gov/) - contains among other things links to various data sources
 
--   http://www.icpsr.umich.edu/
+* [HCUP](http://www.hcup-us.ahrq.gov)  - collection of health related databases
 
--   clinicalstudydatarequest.com
+* [Clinical Study Data](clinicalstudydatarequest.com) - a way to get (tedious) access to clinical trial data
 
 -   <http://www.data.gov/>
+
+-   http://www.icpsr.umich.edu/
 
 -   <http://data.un.org/>
 
@@ -47,5 +49,6 @@
 -   <http://www.healthdataconsortium.org/>
 
 -   <http://mran.revolutionanalytics.com/documents/data/>
+
 
 
