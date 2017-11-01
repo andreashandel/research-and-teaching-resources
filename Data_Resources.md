@@ -14,7 +14,7 @@
 
 * [Guide to Open Data Publishing & Analytics](http://blog.kaggle.com/2016/10/21/a-guide-to-open-data-publishing-analytics/) - A good article describing best practices for publishing data openly. Is also a good read for those who want to analyze other's data.
 
-
+* [A short list of data related R packages](https://rviews.rstudio.com/2017/11/01/r-data-packages/) - packages that either access data or include data
 
 ## Some data Sources
 
