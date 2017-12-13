@@ -4,7 +4,7 @@
 
 *If you know of other good resources, please contribute or let me know.*
 
-*Last updated 12/29/2016.*
+*Last updated 12/13/2017.*
 
 
 ##General Sources
@@ -78,16 +78,3 @@
 * Check out R packages mi, mice, Amelia, missforest, imputation
 
 * Little & Rubin "Statistical Analysis with Missing Data, 2nd Edition"
-
-
-## Teaching Resources
-
-### Good introductory articles
-
-* [Nice discussion of p-values](http://fivethirtyeight.com/features/not-even-scientists-can-easily-explain-p-values/)
-
-* [Another stab at p-values](http://fivethirtyeight.com/features/statisticians-found-one-thing-they-can-agree-on-its-time-to-stop-misusing-p-values/)
-
-
-
-

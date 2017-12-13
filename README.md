@@ -6,7 +6,7 @@ If you have suggestions for updates/improvements or something doesn't work, let 
 
 The majority of content in those lists are collections of links to other sources. Some contain a few of my own thoughts on specific topics. The content is heavily biased by my own work. For research topics, the focus is in statistics/data analysis, infectious disease modeling and the R programming language. The other lists focus on research/academic careers and topics related to it.
 
-Some lists contain a decent amount of information, others are fairly short/empty. All of the lists are subject to (infrequent) change/updates - whenever I get to it.
+Some lists contain a decent amount of information, others are fairly short/empty. All of the lists are subject to (infrequent) change/updates - whenever I get to it or come across sources I find interesting enough to 'bookmark' by adding them to one of the lists.
 
 The lists are written as Markdown files. You can just click on the .md files and github will render it looking (somewhat) nice and definitely readable.
 
@@ -31,6 +31,8 @@ Currently available lists are (in alphabetical order):
 - *R_Resources.md:* Information topic help with learning R in general and with learning specific R topics.
 
 - *ReproducibleResearch_Resources.md:* Information covering the general idea of reproducible research (with a focus on the data analysis aspect) and links to tools (RMarkdown).
+
+- *Statistics_Resources.md:* Information about basic stats topics, with a focus on conceptual (e.g. why p-values are mostly stupid, and similar ideas).
 
 - *Workflow_Resources.md:* Information on efficient workflows for research, with a focus on data analysis, modeling, reproducibility and R
 
