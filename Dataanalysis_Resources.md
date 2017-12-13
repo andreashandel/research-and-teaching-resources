@@ -42,6 +42,7 @@
 
 * [Forecasting: principles and practice](https://www.otexts.org/fpp/)
 
+* [Deep Learning book](http://www.deeplearningbook.org/)
 
 ### Online tutorials
 
