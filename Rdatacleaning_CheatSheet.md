@@ -44,6 +44,11 @@ Or delete the ones you don't want to keep
 
 `newdat <- dat %>% mutate( newvar = var3*var4)`
 
+### Filter rows based on values of a specific variable
+
+`newdat <- dat %>% filter( var == 3)`
+`newdat <- dat %>% filter( !is.na(var) )`
+
 
 ### Checking for NA
 
