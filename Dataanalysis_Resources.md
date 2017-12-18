@@ -63,6 +63,10 @@
 * [The tidyverse](http://tidyverse.org/) - Hadley Wickham's packages for all things data analysis.
 
 
+### Random stuff
+
+* [A nice cartoon-supported illustration of Hill's criteria for causality, applied to Data analysis](http://livefreeordichotomize.com/2016/12/15/hill-for-the-data-scientist-an-xkcd-story/)
+
 
 ## Specific Topics
 
