@@ -18,6 +18,8 @@
 
 ## Some data Sources
 
+* [DataMed](https://datamed.org) - A new search engine and interface that is meant to allow search and access to multiple datasets.
+
 * [Kaggle Data](https://www.kaggle.com/datasets) - A growing number of datasets used in Kaggle data analysis contests and available for any other use.
 
 *  [Project Tycho](https://www.tycho.pitt.edu/) - infectious disease data
