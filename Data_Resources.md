@@ -32,6 +32,8 @@
 
 * [CDC WONDER](http://wonder.cdc.gov/)
 
+* [UCLA School of Public Health Data Repository](https://publicdata.ph.ucla.edu/pages/) - some sets of data from their studies
+
 * [Healthy People Website](https://www.healthypeople.gov/) - contains among other things links to various data sources
 
 * [HCUP](http://www.hcup-us.ahrq.gov)  - collection of health related databases, focusing on US wide and state-specific samples of ER and hospital visits. Not free, but not too expensive.
