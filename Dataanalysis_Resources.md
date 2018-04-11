@@ -77,6 +77,8 @@
 
 * [Data Analysis and Visualization Using R](http://varianceexplained.org/RData/)
 
+* [A nice series of blog posts describing common data manipulations for dplyr](https://suzan.rbind.io/2018/01/dplyr-tutorial-1/)
+
 
 ### Missing Data/Imputation
 
