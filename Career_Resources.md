@@ -1,6 +1,6 @@
 #Resources for general career development
 
-*List maintained by Andreas Handel (ahandel@uga.edu). Last updated 8/22/2016.*
+*List maintained by Andreas Handel (ahandel@uga.edu). Last updated 1/22/2018.*
 
 *If you know of other good resources, please let me know.*
 
@@ -20,6 +20,9 @@
 
 - 	[Thoughts on doing a postdoc or not](https://www.insidehighered.com/advice/2016/08/23/should-you-pursue-postdoc-or-not-essay)
 
+
+###Data Science Internships
+[Insight Data Science](http://www.triageconsulting.com/) arranges short internships with some of the big names.
 
 
 ###Academic job search/hiring

@@ -1,7 +1,7 @@
 #Resources relating to the idea of reproducible research
 
 
-*List maintained by Andreas Handel (ahandel@uga.edu). Last updated 9/19/2016.*
+*List maintained by Andreas Handel (ahandel@uga.edu). Last updated 3/19/2018.*
 
 *If you know of other good resources, please let me know.*
 
@@ -22,7 +22,7 @@ _See also the list on Workflow Resources - there is overlap between those lists_
 
 - [Collection of tutorials on R, Github, knitr, etc. by Karl Broman](http://kbroman.org/pages/tutorials.html)
 
-
+- [A great online book (draft) for using Git(hub) and R(Studio)](http://happygitwithr.com/)
 
 
 

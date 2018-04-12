@@ -32,11 +32,17 @@
 
 * [CDC WONDER](http://wonder.cdc.gov/)
 
+* [UCLA School of Public Health Data Repository](https://publicdata.ph.ucla.edu/pages/) - some sets of data from their studies
+
 * [Healthy People Website](https://www.healthypeople.gov/) - contains among other things links to various data sources
 
-* [HCUP](http://www.hcup-us.ahrq.gov)  - collection of health related databases
+* [HCUP](http://www.hcup-us.ahrq.gov)  - collection of health related databases, focusing on US wide and state-specific samples of ER and hospital visits. Not free, but not too expensive.
 
 * [Clinical Study Data](clinicalstudydatarequest.com) - a way to get (tedious) access to clinical trial data
+
+* [MIMIC](https://mimic.physionet.org/) - a free and open database of critical care patient visits to a Boston hospital.
+
+* [ClinEpiDB](https://clinepidb.org) - a database of (a few) clinical epidemiology studies, focusing on infectious diseases. 
 
 -   <http://www.data.gov/>
 
