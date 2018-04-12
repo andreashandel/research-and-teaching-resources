@@ -25,3 +25,8 @@
 ###Academic job search/hiring
 
 * [This blog post provides a nice description how applications for faculty positions are reviewed](https://chroniclevitae.com/news/1599-reading-your-application-file). From my own experience having been on and chaired several faculty searches, I think it's a fairly accurate description.
+
+
+###Academic career
+
+* [Rmarkdown template for NIH grant proposals](https://github.com/corybrunson/NIH-proposal-template)
