@@ -4,7 +4,7 @@
 
 *If you know of other good resources, please contribute or let me know.*
 
-*Last updated 12/22/2016.*
+*Last updated 4/22/2018*
 
 
 
@@ -44,7 +44,9 @@
 
 * [ClinEpiDB](https://clinepidb.org) - a database of (a few) clinical epidemiology studies, focusing on infectious diseases. 
 
--   <http://www.data.gov/>
+* [Data.gov](http://www.data.gov/>) - government data platform
+
+* [Analyze Survey Data for Free](http://asdfree.com/) - Step by Step Instructions to Explore Public Microdata from an Easy to Type Website
 
 -   http://www.icpsr.umich.edu/
 
