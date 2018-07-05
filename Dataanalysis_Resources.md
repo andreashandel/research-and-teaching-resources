@@ -25,6 +25,8 @@
 
 * [Data wrangling, exploration, and analysis with R](http://stat545-ubc.github.io/index.html)
 
+* [A course on deep learning using a Python stack](http://course.fast.ai)
+
 * Check out online providers such as Coursera, edX, Udacity, etc. for more such courses
 
 

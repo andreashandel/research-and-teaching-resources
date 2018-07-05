@@ -47,6 +47,7 @@ Or delete the ones you don't want to keep
 ### Filter rows based on values of a specific variable
 
 `newdat <- dat %>% filter( var == 3)`
+
 `newdat <- dat %>% filter( !is.na(var) )`
 
 
@@ -58,5 +59,8 @@ Lists numbers of NA for each column/variable
 Nice graphical way using the Amelia package
 
 `library(Amelia); missmap(dat)`
+
+### Replace all values in a data frame with a different value
+
 
 
