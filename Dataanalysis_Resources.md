@@ -29,6 +29,7 @@
 
 * Check out online providers such as Coursera, edX, Udacity, etc. for more such courses
 
+* Hadley taught a [Readings in applied data science] at Stanford [and the material is online](https://github.com/hadley/stats337) 
 
 ### Data Analysis books
 

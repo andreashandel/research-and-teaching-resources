@@ -15,6 +15,7 @@
 
 - A resource from the NIH toward [Broadening Experiences in Scientific Training](http://www.nihbest.org/)
 
+* A good list of books on ['learning how to learn'](https://fastertomaster.com/ultimate-learning-how-to-learn-reading-list/)
 
 ###Postdoc related:
 
