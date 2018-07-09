@@ -15,5 +15,6 @@
 
 * [Great example explaining what p-values do and don't mean](http://livefreeordichotomize.com/2017/08/14/why-you-maybe-shouldnt-care-about-that-p-value./)
 
+* [Another good discussion of the problem with p-values](https://emcrit.org/pulmcrit/p-value-cutoffs/)
 
 
