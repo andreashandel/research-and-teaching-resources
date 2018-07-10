@@ -28,7 +28,9 @@ Currently available lists are (in alphabetical order):
 
 - *Publishing_Resources.md:* Information on how to publish in the peer reviewed literature
 
-- *R_Resources.md:* Information topic help with learning R in general and with learning specific R topics.
+- *R_Resources.md:* Resources for learning R in general and with learning specific R topics.
+
+- *R_PackageWriting_Resources.md:* Resources for writing R packages
 
 - *ReproducibleResearch_Resources.md:* Information covering the general idea of reproducible research (with a focus on the data analysis aspect) and links to tools (RMarkdown).
 
