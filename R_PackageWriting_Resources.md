@@ -19,4 +19,4 @@
 ## Useful packages
 * `devtools`, `roxygen2`, etc. - almost required for development. See Hadley's book.
 * `available` - tests if a specific name is still available
-* 
+* `usethis` - helps with a lot of setup tasks for packages (and other R coding tasks)
