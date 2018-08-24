@@ -48,6 +48,12 @@
 
 * [Analyze Survey Data for Free](http://asdfree.com/) - Step by Step Instructions to Explore Public Microdata from an Easy to Type Website
 
+* [Vaccine Safety Datalink (VSD)](https://www.cdc.gov/vaccinesafety/ensuringsafety/monitoring/vsd/accessing-data.html)
+
+* [Global Health Data Exchange / IHME](http://ghdx.healthdata.org/)
+
+* [Vaccine Adverse Event Reporting System (VAERS)](https://vaers.hhs.gov/)
+
 -   http://www.icpsr.umich.edu/
 
 -   <http://data.un.org/>
