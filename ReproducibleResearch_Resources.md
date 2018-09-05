@@ -1,4 +1,4 @@
-#Resources relating to the idea of reproducible research
+# Resources relating to the idea of reproducible research
 
 
 *List maintained by Andreas Handel (ahandel@uga.edu). Last updated 3/19/2018.*
@@ -8,7 +8,7 @@
 _See also the list on Workflow Resources - there is overlap between those lists_
 
 
-###General Ideas
+### General Ideas
 
 
 
@@ -18,7 +18,7 @@ _See also the list on Workflow Resources - there is overlap between those lists_
 
 
 
-###Specific tools
+### Specific tools
 
 - [Collection of tutorials on R, Github, knitr, etc. by Karl Broman](http://kbroman.org/pages/tutorials.html)
 

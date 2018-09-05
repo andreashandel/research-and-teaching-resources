@@ -1,4 +1,4 @@
-#R plotting commands cheat-sheet
+# R plotting commands cheat-sheet
 
 This list is a collection of specific commands to do specific (pieces of) plots that I often need. Most of the commands use ggplot2.
 

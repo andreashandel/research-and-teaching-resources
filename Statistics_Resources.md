@@ -1,4 +1,4 @@
-#Resources convering statistical topics
+# Resources convering statistical topics
 
 *List maintained by [Andreas Handel](http://handelgroup.uga.edu/).*
 

@@ -1,4 +1,4 @@
-#R data cleaning tasks cheat-sheet
+# R data cleaning tasks cheat-sheet
 
 This list is a collection of specific commands to do specific, often-needed (at least by me) data cleaning and prepping tasks in R. Most of the commands use the ['tidyverse' packages](https://github.com/hadley/tidyverse). So to make sure commands work, you need the corresponding packages, most simply done by `install.packages(tidyverse)` to get them _all_.
 

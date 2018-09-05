@@ -1,4 +1,4 @@
-#Resources for efficient workflows, with a focus on reproducibility and R
+# Resources for efficient workflows, with a focus on reproducibility and R
 
 *List maintained by Andreas Handel (ahandel@uga.edu). Last updated 8/22/2016.*
 
@@ -6,7 +6,7 @@
 
 
 
-###General
+### General
 
 - [Collection of tutorials on R, Github, knitr, etc. by Karl Broman](http://kbroman.org/pages/tutorials.html)
 

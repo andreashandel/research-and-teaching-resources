@@ -1,4 +1,4 @@
-#Resources to learn R
+# Resources to learn R
 
 *List maintained by [Andreas Handel](http://handelgroup.uga.edu/).*
 
@@ -74,12 +74,12 @@
 -   [Hadley's book on R Packages](http://r-pkgs.had.co.nz/) - Free online version of the book. This book and a bit of googling is all you need to successfully make your own R packages. 
 
 	
-##R plotting
+## R plotting
 
 -   [ggplot2 package](http://ggplot2.org/)
 
 
-##R and Shiny
+## R and Shiny
 
 -   [Official shiny webpage](http://shiny.rstudio.com/)
 
@@ -88,7 +88,7 @@
 -   [Collection of Shiny tips and tricks](https://github.com/daattali/advanced-shiny)
 
 
-##Data Analysis in R
+## Data Analysis in R
 
 See the separate [Data Analysis Resources List](https://github.com/ahgroup/research-and-teaching-resource-lists/blob/master/Dataanalysis_Resources.md)
 

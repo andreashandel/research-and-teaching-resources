@@ -1,4 +1,4 @@
-#Resources with information on how to write R Packages
+# Resources with information on how to write R Packages
 
 *List maintained by [Andreas Handel](http://handelgroup.uga.edu/).*
 

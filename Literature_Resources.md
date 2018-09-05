@@ -1,4 +1,4 @@
-#Resources for learning about, keeping up with and managing the literature
+# Resources for learning about, keeping up with and managing the literature
 
 *List maintained by Andreas Handel (ahandel@uga.edu). Last updated 8/27/2016.*
 
@@ -7,7 +7,7 @@
 
 
 
-###Quickly learning a new topic:
+### Quickly learning a new topic:
 
 - If you know 'nothing', maybe start reading about it on Wikipedia, CDC website, WHO, etc. Often information on those sites provide links to the primary literature.
 
@@ -16,20 +16,20 @@
 - Once you found the most relevant review paper for your topic, check who cites the paper (can be done in e.g. Web of Science). Check the titles/abstracts, take a closer look at relevant papers.
 
 
-###Quickly figuring out if your question/idea is new and what closely related work exists:
+### Quickly figuring out if your question/idea is new and what closely related work exists:
 
 - If you don't know much about the topic, follow the instructions above.
 
 - Find a few of the most influential/cited papers on the specific question you are interested in. Check every paper that cites those studies. This should provide a fairly complete overview of most everything that's been done on that topic. Assess if your idea is new or has been done before.
 
 
-###Learning more about a specific topic:
+### Learning more about a specific topic:
 
 - As you learn about a research area/topic, figure out who the main important people are. Search for their work. Read some/all of their papers.
 
 
 
-###Keeping up with the literature:
+### Keeping up with the literature:
 
 There are several ways one can try to stay up-to-date with the literature. Here are some possible strategies. 
 
@@ -44,7 +44,7 @@ A combination of these strategies might be best.
 - Make sure to spend time each week to read/skim a few papers.
 
 
-###Managing references:
+### Managing references:
 
 - Use a reference manager!
 

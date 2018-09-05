@@ -1,4 +1,4 @@
-#Resources related to publishing academic papers
+# Resources related to publishing academic papers
 
 *List maintained by Andreas Handel (ahandel@uga.edu). Last updated 8/30/2016.*
 
@@ -6,7 +6,7 @@
 
 
 
-###Picking a journal
+### Picking a journal
 
 - *Make sure it's not one of the fake/predatory journals.* Check that the journal/publishier is not on [Beall's list](https://scholarlyoa.com/publishers/). If in doubt, ask senior colleagues their opinion about a specific journal.
 

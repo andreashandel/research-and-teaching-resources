@@ -1,4 +1,4 @@
-#R text wrangling and manipulation commands cheat-sheet
+# R text wrangling and manipulation commands cheat-sheet
 
 This list is a collection of specific commands to do specific text/string manipulations in R.
 
@@ -12,7 +12,7 @@ This list is a collection of specific commands to do specific text/string manipu
 This uses regex capturing groups.
 
 ```{r}
-gsub("(#)(\\w)","\\1 \\2", text) #first symbol is a #, second is a word character. an empty space is inserted.  
-gsub("(#)([A-Z])","\\1 \\2", text) #first symbol is a #, second is an upper case letter. an empty space is inserted.
+gsub("(#)(\\w)","\\1 \\2", text) # first symbol is a #, second is a word character. an empty space is inserted.  
+gsub("(#)([A-Z])","\\1 \\2", text) # first symbol is a #, second is an upper case letter. an empty space is inserted.
 ```
 

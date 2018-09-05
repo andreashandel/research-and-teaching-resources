@@ -1,4 +1,4 @@
-#Resources to do Data Analysis/Statistics (in R)
+# Resources to do Data Analysis/Statistics (in R)
 
 *List maintained by [Andreas Handel](http://handelgroup.uga.edu/).*
 
@@ -7,7 +7,7 @@
 *Last updated 12/13/2017.*
 
 
-##General Sources
+## General Sources
 
 ### Other lists
 
