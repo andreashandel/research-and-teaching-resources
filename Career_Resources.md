@@ -34,3 +34,5 @@
 ### Academic career
 
 * [Rmarkdown template for NIH grant proposals](https://github.com/corybrunson/NIH-proposal-template)
+
+* [Tips to have a productive PhD](https://www.castoredc.com/blog/50-actionable-tips-to-help-you-survive-your-phd/)
