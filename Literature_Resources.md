@@ -1,6 +1,6 @@
 # Resources for learning about, keeping up with and managing the literature
 
-*List maintained by Andreas Handel (ahandel@uga.edu). Last updated 8/27/2016.*
+*List maintained by Andreas Handel (ahandel@uga.edu). Last updated 8/27/2018.*
 
 *If you know of other good resources or got other good ideas/strategies, please let me know.*
 
@@ -15,6 +15,13 @@
 
 - Once you found the most relevant review paper for your topic, check who cites the paper (can be done in e.g. Web of Science). Check the titles/abstracts, take a closer look at relevant papers.
 
+- [Iris.Ai](https://the.iris.ai/) - an AI search engine that claims to make diving into a new topic easier by grouping papers.
+
+- [Google scholar](https://scholar.google.com)
+
+- [Semantic scholar](https://www.semanticscholar.org/) - a search engine similar to Google scholar. Claims to produce more relevant and targeted results.
+
+- [Microsoft academic](https://academic.microsoft.com/) - Search engine similar to Google scholar.
 
 ### Quickly figuring out if your question/idea is new and what closely related work exists:
 
