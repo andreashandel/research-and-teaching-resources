@@ -56,6 +56,8 @@
 
 * [Vaccine Adverse Event Reporting System (VAERS)](https://vaers.hhs.gov/)
 
+* [National EMS Data (NEMSIS)](https://nemsis.org/)
+
 -   http://www.icpsr.umich.edu/
 
 -   <http://data.un.org/>
