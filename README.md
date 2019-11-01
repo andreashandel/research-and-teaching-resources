@@ -1,6 +1,6 @@
 *Several lists/collections of links to resources related to research and teaching and career.*
 
-Lists are maintained by [Andreas Handel](http://handelgroup.uga.edu/).
+Lists are maintained by [Andreas Handel](https://www.andreashandel.com/).
 
 If you have suggestions for updates/improvements or something doesn't work, let me know (using github issues or pull requests).  
 
@@ -33,6 +33,8 @@ Currently available lists are (in alphabetical order):
 - *R_PackageWriting_Resources.md:* Resources for writing R packages
 
 - *ReproducibleResearch_Resources.md:* Information covering the general idea of reproducible research (with a focus on the data analysis aspect) and links to tools (RMarkdown).
+
+- *Shiny_Resources.md:* Information to learn Shiny.
 
 - *Statistics_Resources.md:* Information about basic stats topics, with a focus on conceptual (e.g. why p-values are mostly stupid, and similar ideas).
 
