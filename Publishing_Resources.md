@@ -6,9 +6,11 @@
 
 
 
-### Picking a journal
+## Picking a journal
 
 - *Make sure it's not one of the fake/predatory journals.* Check that the journal/publishier is not on [Beall's list](https://scholarlyoa.com/publishers/). If in doubt, ask senior colleagues their opinion about a specific journal.
+
+- Check impact factor and related metrics. While neither one of these metrics should be taken too seriously, they can usually give you a ball-park estimate of the quality of a journal (and might further help you figure out if a journal is junk/predatory). One source for Impact Factor and related metrics is [Journal Citation Reports](https://en.wikipedia.org/wiki/Journal_Citation_Reports), which is a commercial, non-free service. A competing, also not free, product is [SCImago Journal Rank](https://en.wikipedia.org/wiki/SCImago_Journal_Rank). The [Eigenfactor website](http://www.eigenfactor.org/) is a free source for journal metrics.
 
 - *Aim high, but not too high.* If you never get rejected, maybe you are not aiming high enough (and loosing prestige from publishing in 'fancy' journals). If it always takes you until journal number 5 or so to get published, maybe you are aiming too high (and wasting time/resources). 
 
@@ -16,5 +18,4 @@
 
 - *Non-for profits first.* That's my personal opinion, but if I can choose between essentially equally good for-profit (e.g. Elsevier, Wiley, Springer, etc.) or non-for profit (e.g. PLoS, society journals) journals, I prefer the non-profits. I don't see why some company should make money off my work (I'm already not charging for publishing and editing my work)!
 
-
-###
+- Consider journal policies. For instance if you want to post a pre-print to arxiv, bioarxiv or similar, make sure the journal you want to submit to allows that. Check [the RoMEO service](http://sherpa.ac.uk/romeo/index.php) to see the different policies of different journals.
