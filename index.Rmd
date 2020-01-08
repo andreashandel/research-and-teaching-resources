@@ -1,0 +1,83 @@
+---
+title: "Resources for my Research and Teaching"
+output: 
+  html_document:
+    toc: FALSE
+---
+
+```{r, include = FALSE}
+#just so I can use emoticons
+#devtools::install_github("hadley/emo")
+library(emo)
+```
+
+# Overview
+
+This small website contains a collection of lists with links to various resources that are related to my ([Andreas Handel](https://www.andreashandel.com/)) research and teaching.
+
+The majority of content are collections of links to other sources. Some contain a few of my own thoughts on specific topics. The content is heavily biased toward my work. For research topics, the focus is in statistics/data analysis, infectious disease modeling and the R programming language. The other lists focus on research/academic careers and topics related to it.
+
+Some lists contain a decent amount of information, others are fairly short/empty. All of the lists are subject to (infrequent) change/updates - whenever I get to it or come across sources I find interesting enough to 'bookmark' by adding them to one of the lists.
+
+The main reason for these lists is so I can find stuff again. If others benefit from some of the listed links, even better.
+
+If you have suggestions for updates/improvements or something doesn't work, let me know (using github issues or pull requests).  
+
+
+# Content
+
+Currently available lists are (in alphabetical order):
+
+- *Career_Resources.md:* Information on (academic/research) career related resources. 
+
+- *Communication_Resources.md:* Information on how to communicate (scientific) information to various audiences.
+
+- *Data_Resources.md:* Information where to find available data online.
+
+- *Dataanalysis_Resources.md:* Information to help with data analysis and statistics related task, with a focus on R.
+
+- *EDAandVisualization_Resources.md:* Information regarding exploratory data analysis and graphics/visualization (mainy in R). 
+
+- *IDModeling_Resources.md:* Information that's useful for Infectious Disease modeling. 
+
+- *Literature_Resources.md:* Information on how to learn about a new topic, stay up to date and manage literature references
+
+- *Publishing_Resources.md:* Information on how to publish in the peer reviewed literature
+
+- *R_Resources.md:* Resources for learning R in general and with learning specific R topics.
+
+- *Rdatacleaning_Cheatsheet.md:* A list of commands for doing data cleaning/wrangling tasks that I often encounter (and keep forgetting how to do).
+ 
+- *Rplotting_Cheatsheet.md:* A list of commands for plotting in R (both base plot and ggplot) that I often encounter (and keep forgetting how to do).
+
+- *R_PackageWriting_Resources.md:* Resources for writing R packages
+
+- *ReproducibleResearch_Resources.md:* Information covering the general idea of reproducible research (with a focus on the data analysis aspect) and links to tools (RMarkdown).
+
+- *Shiny_Resources.md:* Information to learn Shiny.
+
+- *Statistics_Resources.md:* Information about basic stats topics, with a focus on conceptual (e.g. why p-values are mostly stupid, and similar ideas).
+
+- *Workflow_Resources.md:* Information on efficient workflows for research, with a focus on data analysis, modeling, reproducibility and R
+ 
+
+
+
+## Acknowledgements
+
+This site is maintained by [Andreas Handel](https://www.andreashandel.com/).
+
+```{r, results = "asis", echo = FALSE, message = FALSE, warning=FALSE}
+#the following code snipped is taken from Hadley's R4DS intro page
+library(dplyr)
+contributors <- readr::read_csv("contributors.csv", col_types = list())
+contributors <- contributors %>% 
+  mutate(
+    link = glue::glue("[\\@{GithubID}](https://github.com/{GithubID})"),
+    desc = ifelse(is.na(LastName), link, glue::glue("{FirstName} {LastName} ({link})"))
+  )
+cat("The following individuals have contributed to improving the course:\n")
+cat(paste0(contributors$desc, collapse = ", "))
+```
+
+The site is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Linked materials are governed by their own licenses. 

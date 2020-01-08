@@ -1,9 +1,8 @@
-# Resources for general career development
+Resources for general career development
 
 *List maintained by Andreas Handel (ahandel@uga.edu). Last updated 1/22/2018.*
 
 *If you know of other good resources, please let me know.*
-
 
 
 ### General:
