@@ -39,7 +39,7 @@ The following lists contain mostly links and some of my own thoughts on specific
 
 - [Data Analysis and Stats:](./Dataanalysis_Resources.html) Data analysis and statistics related tasks, with a focus on R.
 
-- [Infectious Disease Modeling:](./IDModeling_Resources.html) Information that's useful for Infectious Disease modeling. 
+- [Infectious Disease Modeling:](./IDmodeling_Resources.html) Information that's useful for Infectious Disease modeling. 
 
 - [Reading, managing and publishing papers:](./Literature_Resources.html) How to search and read the literature, how to stay up to date and manage references, how to publish.
 
@@ -55,7 +55,7 @@ The following documents contain collections of R code snippets and pointers for 
 
 - [Data Cleaning:](./Cheatsheet_Rdatacleaning.html) A list of commands for doing data cleaning/wrangling tasks.
  
-- [Plotting:](./Cheatsheet__Rplotting.html) A list of commands for plotting in R (both base plot and ggplot).
+- [Plotting:](./Cheatsheet_Rplotting.html) A list of commands for plotting in R (both base plot and ggplot).
 
 - [Text Manipulation:](./Cheatsheet_Textmanipulation.html) A list of commands for working with text.
 
