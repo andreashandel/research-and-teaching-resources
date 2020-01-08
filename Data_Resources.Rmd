@@ -12,7 +12,7 @@ output:
 
 ## General Data related resources
 
-* [Project Open Data](https://project-open-data.cio.gov/) - US Government open data effort. The [Project Open Data Dashboard](https://labs.data.gov/dashboard/offices) gives overview statistics of available government data from various agencies.
+* The [Project Open Data Dashboard](https://labs.data.gov/dashboard/) gives overview statistics of available government data from various agencies.
 
 * [Guide to Open Data Publishing & Analytics](http://blog.kaggle.com/2016/10/21/a-guide-to-open-data-publishing-analytics/) - A good article describing best practices for publishing data openly. Is also a good read for those who want to analyze other's data.
 
@@ -20,13 +20,14 @@ output:
 
 * [Google's Data Search Engine](https://toolbox.google.com/datasetsearch)
 
+
 ## Some data Sources
 
 * [DataMed](https://datamed.org) - A new search engine and interface that is meant to allow search and access to multiple datasets.
 
 * [Kaggle Data](https://www.kaggle.com/datasets) - A growing number of datasets used in Kaggle data analysis contests and available for any other use.
 
-*  [Project Tycho](https://www.tycho.pitt.edu/) - infectious disease data
+* [Project Tycho](https://www.tycho.pitt.edu/) - infectious disease data
 
 * [Quandl](http://www.quandl.com) - mainly finance related data
 
@@ -42,13 +43,13 @@ output:
 
 * [HCUP](http://www.hcup-us.ahrq.gov)  - collection of health related databases, focusing on US wide and state-specific samples of ER and hospital visits. Not free, but not too expensive.
 
-* [Clinical Study Data](clinicalstudydatarequest.com) - a way to get (tedious) access to clinical trial data
+* [Clinical Study Data](https://www.clinicalstudydatarequest.com/) - a way to get (tedious) access to clinical trial data
 
 * [MIMIC](https://mimic.physionet.org/) - a free and open database of critical care patient visits to a Boston hospital.
 
 * [ClinEpiDB](https://clinepidb.org) - a database of (a few) clinical epidemiology studies, focusing on infectious diseases. 
 
-* [Data.gov](http://www.data.gov/>) - government data platform
+* [Data.gov](http://www.data.gov/) - federak government data platform.
 
 * [Analyze Survey Data for Free](http://asdfree.com/) - Step by Step Instructions to Explore Public Microdata from an Easy to Type Website
 
@@ -60,17 +61,12 @@ output:
 
 * [National EMS Data (NEMSIS)](https://nemsis.org/)
 
--   http://www.icpsr.umich.edu/
+* [Data from the UN](http://data.un.org/)
 
--   <http://data.un.org/>
+* [Inter-university Consortium for Political and Social Research (ICPSR)](http://www.icpsr.umich.edu/) - access to various social and behavioral sciences data.
 
--   http://acrdc.gsu.edu/index.html
+* [Federal Reserve in Atlanta Data Center](http://acrdc.gsu.edu/index.html)
 
--   <https://www.healthdata.gov/>
+* [Database to search health related government data](https://www.healthdata.gov/)
 
--   <http://www.healthdataconsortium.org/>
-
--   <http://mran.revolutionanalytics.com/documents/data/>
-
-
-
+* [A list hosted by Microsoft with links to various data sources](http://mran.revolutionanalytics.com/documents/data/)

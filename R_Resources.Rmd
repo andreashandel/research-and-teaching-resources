@@ -22,8 +22,6 @@ output:
 
 * [Try R, a free course at codeschool.com](https://www.codeschool.com/courses/try-r)
 
-* [Someone else's list of R resources](http://www.r-bloggers.com/moocs-and-courses-to-learn-r/)
- 
 
 # R books and tutorials
 

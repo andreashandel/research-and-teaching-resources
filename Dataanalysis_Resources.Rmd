@@ -26,7 +26,7 @@ output:
 
 * [Introduction to Statistical Learning](https://lagunita.stanford.edu/courses/HumanitiesSciences/StatLearning/Winter2016/about). 
 
-* [Data wrangling, exploration, and analysis with R](http://stat545-ubc.github.io/index.html)
+* [Stat 545 at UBC - Data wrangling, exploration, and analysis with R](https://stat545.stat.ubc.ca/)
 
 * [A course on deep learning using a Python stack](http://course.fast.ai)
 
@@ -47,9 +47,9 @@ output:
 
 * [Introduction to Data Science](http://jsresearch.net/index.html)
 
-* [Forecasting: principles and practice](https://www.otexts.org/fpp/)
-
 * [Deep Learning book](http://www.deeplearningbook.org/)
+
+* [Stat 545](https://stat545.com/) - Jenny Bryan's book based on her previous teaching of a course by that name (see above)
 
 
 # Online tutorials
@@ -127,3 +127,8 @@ output:
 
 * The [R survival package](https://cran.r-project.org/web/packages/survival/index.html) - Lots of functionality for survival analysis.
 
+## Time-series analysis
+
+* The [R survival package](https://cran.r-project.org/web/packages/survival/index.html) - Lots of functionality for survival analysis.
+
+* [Forecasting: principles and practice](https://otexts.com/fpp2/)
