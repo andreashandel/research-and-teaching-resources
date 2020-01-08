@@ -1,10 +1,12 @@
-# Sources of Data 
-
-*List maintained by [Andreas Handel](http://handelgroup.uga.edu/).*
-
-*If you know of other good resources, please contribute or let me know.*
-
-*Last updated 9/22/2018*
+---
+title: "Data Sources"
+subtitle: ""
+author: "[Andreas Handel](https://www.andreashandel.com/)"
+date: "Last modified: `r file.mtime(knitr::current_input())`"
+output: 
+  html_document:
+    toc_depth: 3
+---
 
 
 

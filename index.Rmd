@@ -28,7 +28,7 @@ If you have suggestions for updates/improvements or something doesn't work, let 
 
 Currently available lists are (in alphabetical order):
 
-- *Career_Resources.md:* Information on (academic/research) career related resources. 
+- [*Career Topics:*](./Career_Resources.html) Information on (academic/research) career related resources. 
 
 - *Communication_Resources.md:* Information on how to communicate (scientific) information to various audiences.
 

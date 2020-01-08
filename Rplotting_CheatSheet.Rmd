@@ -11,7 +11,7 @@ __Conventions:__ The data is assumed to be a data frame called `dat`, I'm using 
 
 #### Increase legend
 If one uses dashed/dotted/solid lines in lineplots, the default legend in ggplot is often not big enough to properly show the different lines. One can increase this with
-```{r}
+```{r, eval = FALSE}
 theme(legend.key.width = unit(X,"line"))
 ````
 where X is the length/width one wants.
