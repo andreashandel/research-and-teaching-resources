@@ -9,9 +9,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
+<meta name="author" content="Andreas Handel" />
 
 
-<title>EDAandVisualization_Resources.utf8</title>
+<title>Text Manipulation R Commands</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -27,6 +28,96 @@
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css" data-origin="pandoc">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(title);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  { color: #cccccc; background-color: #303030; }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ffcfaf; } /* Alert */
+code span.an { color: #7f9f7f; font-weight: bold; } /* Annotation */
+code span.at { } /* Attribute */
+code span.bn { color: #dca3a3; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #f0dfaf; } /* ControlFlow */
+code span.ch { color: #dca3a3; } /* Char */
+code span.cn { color: #dca3a3; font-weight: bold; } /* Constant */
+code span.co { color: #7f9f7f; } /* Comment */
+code span.cv { color: #7f9f7f; font-weight: bold; } /* CommentVar */
+code span.do { color: #7f9f7f; } /* Documentation */
+code span.dt { color: #dfdfbf; } /* DataType */
+code span.dv { color: #dcdccc; } /* DecVal */
+code span.er { color: #c3bf9f; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #c0bed1; } /* Float */
+code span.fu { color: #efef8f; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #7f9f7f; font-weight: bold; } /* Information */
+code span.kw { color: #f0dfaf; } /* Keyword */
+code span.op { color: #f0efd0; } /* Operator */
+code span.ot { color: #efef8f; } /* Other */
+code span.pp { color: #ffcfaf; font-weight: bold; } /* Preprocessor */
+code span.sc { color: #dca3a3; } /* SpecialChar */
+code span.ss { color: #cc9393; } /* SpecialString */
+code span.st { color: #cc9393; } /* String */
+code span.va { } /* Variable */
+code span.vs { color: #cc9393; } /* VerbatimString */
+code span.wa { color: #7f9f7f; font-weight: bold; } /* Warning */
+
+</style>
+<script>
+// apply pandoc div.sourceCode style to pre.sourceCode instead
+(function() {
+  var sheets = document.styleSheets;
+  for (var i = 0; i < sheets.length; i++) {
+    if (sheets[i].ownerNode.dataset["origin"] !== "pandoc") continue;
+    try { var rules = sheets[i].cssRules; } catch (e) { continue; }
+    for (var j = 0; j < rules.length; j++) {
+      var rule = rules[j];
+      // check if there is a div.sourceCode rule
+      if (rule.type !== rule.STYLE_RULE || rule.selectorText !== "div.sourceCode") continue;
+      var style = rule.style.cssText;
+      // check if color or background-color is set
+      if (rule.style.color === '' && rule.style.backgroundColor === '') continue;
+      // replace div.sourceCode by a pre.sourceCode rule
+      sheets[i].deleteRule(j);
+      sheets[i].insertRule('pre.sourceCode{' + style + '}', j);
+    }
+  }
+})();
+</script>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
 
 
 <style type="text/css">
@@ -335,7 +426,7 @@ div.tocify {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Lists with links to research and teaching resources</a>
+      <a class="navbar-brand" href="index.html">Research/Teaching/Career resources</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -357,33 +448,19 @@ div.tocify {
 
 
 
+<h1 class="title toc-ignore">Text Manipulation R Commands</h1>
+<h4 class="author"><a href="https://www.andreashandel.com/">Andreas Handel</a></h4>
+<h4 class="date">Last modified: 2020-01-08 14:47:31</h4>
 
 </div>
 
 
-<div id="resources-to-do-exploratory-data-analysis-and-visualization-mainly-in-r" class="section level1">
-<h1>Resources to do Exploratory Data Analysis and Visualization (mainly in R)</h1>
-<p><em>List maintained by Andreas Handel (<a href="mailto:ahandel@uga.edu" class="email">ahandel@uga.edu</a>). Last updated 7/21/2017.</em></p>
-<p><em>If you know of other good resources, please let me know.</em></p>
-<div id="general-sources" class="section level3">
-<h3>General Sources</h3>
-<ul>
-<li><a href="http://r4ds.had.co.nz/">R for Data Science</a>: Probably the first book you should read if you plan on doing any serious data analysis in R. Heavily focuses on the initial steps of an analysis, including exploratory analysis/visualization. The book is freely available online.</li>
-</ul>
-</div>
-<div id="visualization" class="section level3">
-<h3>Visualization</h3>
-<ul>
-<li><p><a href="http://www.r-graph-gallery.com/">R Graph Gallery</a>: Has lots of examples of graphs and plots in R, including the underlying code that produced the graph. Great place to find a graph similar to one you’d like to make, take the code and adjust it.</p></li>
-<li><p><a href="http://www.sthda.com/english/wiki/ggplot2-easy-way-to-mix-multiple-graphs-on-the-same-page">This website</a> has a nice article describing ways to create different multi-panel plots.</p></li>
-</ul>
-</div>
-<div id="exploratory-analysis" class="section level3">
-<h3>Exploratory analysis</h3>
-<ul>
-<li>R packages DescTools, rattle</li>
-</ul>
-</div>
+<p>This list is a collection of specific commands to do specific text/string manipulations in R.</p>
+<div id="insert-a-blank-between-2-bits-of-text." class="section level2">
+<h2>Insert a blank between 2 bits of text.</h2>
+<p>This uses regex capturing groups.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" title="1"><span class="kw">gsub</span>(<span class="st">&quot;(#)(</span><span class="ch">\\</span><span class="st">w)&quot;</span>,<span class="st">&quot;</span><span class="ch">\\</span><span class="st">1 </span><span class="ch">\\</span><span class="st">2&quot;</span>, text) <span class="co"># first symbol is a #, second is a word character. an empty space is inserted.  </span></a>
+<a class="sourceLine" id="cb1-2" title="2"><span class="kw">gsub</span>(<span class="st">&quot;(#)([A-Z])&quot;</span>,<span class="st">&quot;</span><span class="ch">\\</span><span class="st">1 </span><span class="ch">\\</span><span class="st">2&quot;</span>, text) <span class="co"># first symbol is a #, second is an upper case letter. an empty space is inserted.</span></a></code></pre></div>
 </div>
 
 
@@ -432,7 +509,7 @@ $(document).ready(function ()  {
 
     // establish options
     var options = {
-      selectors: "h1,h2",
+      selectors: "h1,h2,h3",
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {

@@ -10,16 +10,11 @@ output:
 
 
 
-# Resources related to communication of (mainly) scientific information
 
-*List maintained by Andreas Handel (ahandel@uga.edu). Last updated 8/22/2016.*
-
-*If you know of other good resources, please let me know.*
-
-
-### General
+## General
 
 - [A collection of resources on science communication](http://www.nature.com/scitable/topic/scientific-communication-14121566) from the Nature Publishing Group.
+
 
 ### Publishing
 
@@ -28,12 +23,17 @@ Since this is the mainstay of academic communication, there is an extra list jus
 
 ### Presentations
 
-Need to put something here
+To be filled
+
 
 ### Media Engagement
 
+To be filled
+
 
 ### Talking to a lay audience
+
+To be filled
 
 
 ### Modern media tools

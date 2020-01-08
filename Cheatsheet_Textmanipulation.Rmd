@@ -1,0 +1,24 @@
+---
+title: "Text Manipulation R Commands"
+subtitle: ""
+author: "[Andreas Handel](https://www.andreashandel.com/)"
+date: "Last modified: `r file.mtime(knitr::current_input())`"
+output: 
+  html_document:
+    toc_depth: 3
+---
+
+
+This list is a collection of specific commands to do specific text/string manipulations in R.
+
+
+
+## Insert a blank between 2 bits of text.
+
+This uses regex capturing groups.
+
+```{r, eval = FALSE}
+gsub("(#)(\\w)","\\1 \\2", text) # first symbol is a #, second is a word character. an empty space is inserted.  
+gsub("(#)([A-Z])","\\1 \\2", text) # first symbol is a #, second is an upper case letter. an empty space is inserted.
+```
+

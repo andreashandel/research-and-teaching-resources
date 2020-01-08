@@ -9,9 +9,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
+<meta name="author" content="Andreas Handel" />
 
 
-<title>Rplotting_CheatSheet.utf8</title>
+<title>Plotting R Commands</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -425,7 +426,7 @@ div.tocify {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Lists with links to research and teaching resources</a>
+      <a class="navbar-brand" href="index.html">Research/Teaching/Career resources</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -447,25 +448,24 @@ div.tocify {
 
 
 
+<h1 class="title toc-ignore">Plotting R Commands</h1>
+<h4 class="author"><a href="https://www.andreashandel.com/">Andreas Handel</a></h4>
+<h4 class="date">Last modified: 2020-01-08 14:46:48</h4>
 
 </div>
 
 
-<div id="r-plotting-commands-cheat-sheet" class="section level1">
-<h1>R plotting commands cheat-sheet</h1>
 <p>This list is a collection of specific commands to do specific (pieces of) plots that I often need. Most of the commands use ggplot2.</p>
-<p><em>List maintained by Andreas Handel (<a href="mailto:ahandel@uga.edu" class="email">ahandel@uga.edu</a>). Last updated 12/9/2016.</em> <em>If you know of other good examples, please let me know.</em></p>
 <p><strong>Conventions:</strong> The data is assumed to be a data frame called <code>dat</code>, I’m using the pipe-operator notation, the outcome of interest is called <code>outcome</code>, variables are <code>var1</code>, <code>var2</code>, etc. or just refered to as <code>varname</code>. ggplot library is assumed to be loaded for most commands.</p>
-<div id="increase-legend" class="section level4">
-<h4>Increase legend</h4>
+<div id="increase-legend" class="section level2">
+<h2>Increase legend</h2>
 <p>If one uses dashed/dotted/solid lines in lineplots, the default legend in ggplot is often not big enough to properly show the different lines. One can increase this with</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" title="1"><span class="kw">theme</span>(<span class="dt">legend.key.width =</span> <span class="kw">unit</span>(X,<span class="st">&quot;line&quot;</span>))</a></code></pre></div>
 <p>where X is the length/width one wants.</p>
 </div>
-<div id="sorting-order-of-entries-in-plotslegend" class="section level4">
-<h4>Sorting order of entries in plots/legend</h4>
+<div id="sorting-order-of-entries-in-plotslegend" class="section level2">
+<h2>Sorting order of entries in plots/legend</h2>
 <p>ggplot shows legends alphabetically for non-factor variables. Easiest approach is to turn variable into factor and sort as needed.</p>
-</div>
 </div>
 
 
@@ -514,7 +514,7 @@ $(document).ready(function ()  {
 
     // establish options
     var options = {
-      selectors: "h1,h2",
+      selectors: "h1,h2,h3",
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {

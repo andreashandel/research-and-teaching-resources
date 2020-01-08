@@ -1,15 +1,17 @@
-# Resources to do Data Analysis/Statistics (in R)
+---
+title: "Data Analysis and Statistics"
+subtitle: ""
+author: "[Andreas Handel](https://www.andreashandel.com/)"
+date: "Last modified: `r file.mtime(knitr::current_input())`"
+output: 
+  html_document:
+    toc_depth: 3
+---
 
-*List maintained by [Andreas Handel](http://handelgroup.uga.edu/).*
-
-*If you know of other good resources, please contribute or let me know.*
-
-*Last updated 12/13/2017.*
+*Note: I have recently added more new links to the resources page of my [Modern Applied Data Analysis online course](https://andreashandel.github.io/MADAcourse/). You might want to check there (under `Resources`) for additional links to R and Data Analysis related links.*
 
 
-## General Sources
-
-### Other lists
+# Other lists
 
 * [Awesome data science](https://github.com/bulutyazilim/awesome-datascience) - Someone else's list of resources related to data science.
 
@@ -17,7 +19,8 @@
 
 * [A machine learning list of terms and definitions.](https://developers.google.com/machine-learning/glossary/)
 
-### Online Courses for Data Analysis
+
+# Online Courses for Data Analysis
 
 * [All courses in the Data Science Specialization on Coursera](https://www.coursera.org/specializations/jhu-data-science)
 
@@ -31,7 +34,8 @@
 
 * Hadley taught a [Readings in applied data science] at Stanford [and the material is online](https://github.com/hadley/stats337) 
 
-### Data Analysis books
+
+# Data Analysis books
 
 * [R for Data Science](http://r4ds.had.co.nz/) - Probably the first book you should read if you plan on doing any serious data analysis in R. The focus is on the initial steps of an analysis (usually the most important ones). Not much coverage of statistical modeling. The book is freely available online.
 
@@ -47,34 +51,32 @@
 
 * [Deep Learning book](http://www.deeplearningbook.org/)
 
-### Online tutorials
+
+# Online tutorials
 
 * [A Computerworld tutorial on data wrangling](http://www.computerworld.com/s/article/9243391/4_data_wrangling_tasks_in_R_for_advanced_beginners)
 
 
-### Useful data-analysis related R packages
+
+# Useful data-analysis related R packages
 
 * [Caret](http://topepo.github.io/caret/index.html) - a package that allows many different modeling approaches from a single interface
 
 * [Machine Learning in R - mlR](https://github.com/mlr-org/mlr) - similar concept as Caret but different strengths and weaknesses. I would check out both.
 
--   [Computerworld tutorial on data wrangling](http://www.computerworld.com/s/article/9243391/4\_data\_wrangling\_tasks\_in\_R\_for\_advanced\_beginners)
-    (intermediate level)
-
 *  [Collection of R packages for dealing with data](http://www.computerworld.com/article/2921176/business-intelligence/great-r-packages-for-data-import-wrangling-visualization.html)
 
-* [The tidyverse](http://tidyverse.org/) - Hadley Wickham's packages for all things data analysis.
+* [The tidyverse](http://tidyverse.org/) - Hadley Wickham & Co's packages for all things data analysis.
 
 
-### Random stuff
+# Random stuff
 
 * [A nice cartoon-supported illustration of Hill's criteria for causality, applied to Data analysis](http://livefreeordichotomize.com/2016/12/15/hill-for-the-data-scientist-an-xkcd-story/)
 
 
-## Specific Topics
+# Specific Topics
 
-
-### Data cleaning and checking
+## Data cleaning and checking
 
 * Check out the R packages tidyr, plyr, dplyr, validate, vtreat (you can find good documentation for all of them)
 
@@ -83,8 +85,45 @@
 * [A nice series of blog posts describing common data manipulations for dplyr](https://suzan.rbind.io/2018/01/dplyr-tutorial-1/)
 
 
-### Missing Data/Imputation
+## Visualization
+
+* [R Graph Gallery](http://www.r-graph-gallery.com/): Has lots of examples of graphs and plots in R, including the underlying code that produced the graph. Great place to find a graph similar to one you'd like to make, take the code and adjust it.
+
+* [This website](http://www.sthda.com/english/wiki/ggplot2-easy-way-to-mix-multiple-graphs-on-the-same-page) has a nice article describing ways to create different multi-panel plots.
+
+
+## Missing Data/Imputation
 
 * Check out R packages mi, mice, Amelia, missforest, imputation
 
 * Little & Rubin "Statistical Analysis with Missing Data, 2nd Edition"
+
+
+## Bayesian Analysis
+
+* The [Statistical Rethinking book](https://xcelab.net/rm/statistical-rethinking/)
+
+* [Lecture notes from Mark Lai's class](https://bookdown.org/marklhc/notes_bookdown/)
+
+* [brms package site](https://github.com/paul-buerkner/brms)
+
+
+## p-values
+
+* [Nice discussion of p-values](http://fivethirtyeight.com/features/not-even-scientists-can-easily-explain-p-values/)
+
+* [Another stab at p-values](http://fivethirtyeight.com/features/statisticians-found-one-thing-they-can-agree-on-its-time-to-stop-misusing-p-values/)
+
+* [Great example explaining what p-values do and don't mean](http://livefreeordichotomize.com/2017/08/14/why-you-maybe-shouldnt-care-about-that-p-value./)
+
+* [Another good discussion of the problem with p-values](https://emcrit.org/pulmcrit/p-value-cutoffs/)
+
+
+## Epidemiology specific topics
+
+* [tableone](https://cran.r-project.org/package=tableone) - A package that allows for convenient creation of a descriptive table based on a data frame.
+
+* [compareGroups](https://cran.r-project.org/package=compareGroups) - A package that allows for convenient creation of result tables from linear and logistic (and related) models.
+
+* The [R survival package](https://cran.r-project.org/web/packages/survival/index.html) - Lots of functionality for survival analysis.
+

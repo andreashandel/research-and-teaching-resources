@@ -9,9 +9,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
+<meta name="author" content="Andreas Handel" />
 
 
-<title>ReproducibleResearch_Resources.utf8</title>
+<title>Reproducible Research</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -335,7 +336,7 @@ div.tocify {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Lists with links to research and teaching resources</a>
+      <a class="navbar-brand" href="index.html">Research/Teaching/Career resources</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -357,29 +358,27 @@ div.tocify {
 
 
 
+<h1 class="title toc-ignore">Reproducible Research</h1>
+<h4 class="author"><a href="https://www.andreashandel.com/">Andreas Handel</a></h4>
+<h4 class="date">Last modified: 2020-01-08 14:37:37</h4>
 
 </div>
 
 
-<div id="resources-relating-to-the-idea-of-reproducible-research" class="section level1">
-<h1>Resources relating to the idea of reproducible research</h1>
-<p><em>List maintained by Andreas Handel (<a href="mailto:ahandel@uga.edu" class="email">ahandel@uga.edu</a>). Last updated 3/19/2018.</em></p>
-<p><em>If you know of other good resources, please let me know.</em></p>
-<p><em>See also the list on Workflow Resources - there is overlap between those lists</em></p>
-<div id="general-ideas" class="section level3">
-<h3>General Ideas</h3>
+<div id="general-ideas" class="section level1">
+<h1>General Ideas</h1>
 <ul>
 <li><p><a href="http://fivethirtyeight.com/features/science-isnt-broken/">Article about possible problems with research</a></p></li>
 <li><p><a href="http://blogs.plos.org/thestudentblog/2016/08/05/the-irreproducibility-crisis-an-opportunity-to-make-science-better/">Another blog post discussing (lack of) reproducibility in science</a></p></li>
 </ul>
 </div>
-<div id="specific-tools" class="section level3">
-<h3>Specific tools</h3>
+<div id="specific-tools" class="section level1">
+<h1>Specific tools</h1>
 <ul>
 <li><p><a href="http://kbroman.org/pages/tutorials.html">Collection of tutorials on R, Github, knitr, etc. by Karl Broman</a></p></li>
 <li><p><a href="http://happygitwithr.com/">A great online book (draft) for using Git(hub) and R(Studio)</a></p></li>
+<li><p><a href="https://github.com/corybrunson/NIH-proposal-template">Rmarkdown template for NIH grant proposals</a></p></li>
 </ul>
-</div>
 </div>
 
 
@@ -428,7 +427,7 @@ $(document).ready(function ()  {
 
     // establish options
     var options = {
-      selectors: "h1,h2",
+      selectors: "h1,h2,h3",
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {

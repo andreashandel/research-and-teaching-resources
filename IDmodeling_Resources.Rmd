@@ -1,17 +1,23 @@
-# Resources to do Infectious Disease Modeling (in R)
+---
+title: "Infectious Disease Modeling"
+subtitle: ""
+author: "[Andreas Handel](https://www.andreashandel.com/)"
+date: "Last modified: `r file.mtime(knitr::current_input())`"
+output: 
+  html_document:
+    toc_depth: 3
+---
 
-*List maintained by Andreas Handel (ahandel@uga.edu). Last updated 9/2/2016.*
 
-*If you know of other good resources, please let me know.*
-
-
-## Conceptual/General Resources
+# General Resources
 
 * The folks behind the [Epidemics MOOC](https://www.coursera.org/learn/epidemics) produced [a webpage with interesting ID related resources](http://epidemics.psu.edu/)
 
 * [A number of teaching resources for various aspects of infectious disease dynamics](https://nrich.maths.org/epidemic)
 
-## Books
+
+# Books
+
 Sorted in order of difficulty (according to my opinion)
 
 * [An introduction to infectious disease modeling by Emilia Vynnycky and Richard White](http://www.anintroductiontoinfectiousdiseasemodelling.com/)
@@ -19,12 +25,22 @@ Sorted in order of difficulty (according to my opinion)
 * [Modeling Infectious Diseases in Humans and Animals by Matt J. Keeling & Pejman Rohani](http://www.modelinginfectiousdiseases.org/)
 
 
-## Computational Resources
+# Online materials
 
-[The R Epidemics Consortium](https://reconhub.github.io/) maintains several R packages related to infectious disease modeling.
+* [My ID Epi online book draft](https://ahgroup.github.io/DSAIDEbook/)
 
-[The pomp R package to fit stochastic dynamic models (and more) to time-series data.](http://kingaa.github.io/pomp/)
+
+# Software 
+
+* My ID modeling pacakges [DSAIDE](https://ahgroup.github.io/DSAIDE/), [DSAIRM](https://ahgroup.github.io/DSAIRM/) and [modelbuilder](https://ahgroup.github.io/modelbuilder/).
+
+*  [The R Epidemics Consortium](https://reconhub.github.io/) maintains several R packages related to infectious disease modeling.
+
+*  [The pomp R package to fit stochastic dynamic models (and more) to time-series data.](http://kingaa.github.io/pomp/)
    
-
+* [The Epirecipes site](http://epirecip.es/)
    
+* [idmodelr package](https://www.samabbott.co.uk/idmodelr/)
+
+
    

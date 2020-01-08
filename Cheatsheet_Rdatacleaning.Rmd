@@ -1,11 +1,17 @@
-# R data cleaning tasks cheat-sheet
+---
+title: "Data Wrangling R Commands"
+subtitle: ""
+author: "[Andreas Handel](https://www.andreashandel.com/)"
+date: "Last modified: `r file.mtime(knitr::current_input())`"
+output: 
+  html_document:
+    toc_depth: 3
+---
+
 
 This list is a collection of specific commands to do specific, often-needed (at least by me) data cleaning and prepping tasks in R. Most of the commands use the ['tidyverse' packages](https://github.com/hadley/tidyverse). So to make sure commands work, you need the corresponding packages, most simply done by `install.packages(tidyverse)` to get them _all_.
 
 Also check out the data wrangling related cheat-sheets [here at R Studio's website](https://www.rstudio.com/resources/cheatsheets/).
-
-*List maintained by Andreas Handel (ahandel@uga.edu). Last updated 12/9/2016.*
-*If you know of other good examples, please let me know.*
 
 
 __Conventions:__ The data is assumed to be a data frame called `dat`, I'm using the pipe-operator notation, the outcome of interest is called `outcome`, variables are `var1`, `var2`, etc. or just refered to as `varname`
@@ -62,5 +68,5 @@ Nice graphical way using the Amelia package
 
 ### Replace all values in a data frame with a different value
 
-
+add
 

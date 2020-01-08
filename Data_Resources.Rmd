@@ -28,13 +28,13 @@ output:
 
 *  [Project Tycho](https://www.tycho.pitt.edu/) - infectious disease data
 
-* [Quandl](http://www.quandl.com)
+* [Quandl](http://www.quandl.com) - mainly finance related data
 
-* [NHANES](http://www.cdc.gov/nchs/nhanes.htm)
+* [NHANES](http://www.cdc.gov/nchs/nhanes.htm) - longstanding and thorough survey done by CDC
 
 * [SEER](http://seer.cancer.gov/) - Cancer data
 
-* [CDC WONDER](http://wonder.cdc.gov/)
+* [CDC WONDER](http://wonder.cdc.gov/) - list of mainly CDC online databases
 
 * [UCLA School of Public Health Data Repository](https://publicdata.ph.ucla.edu/pages/) - some sets of data from their studies
 

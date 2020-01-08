@@ -9,9 +9,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
+<meta name="author" content="Andreas Handel" />
 
 
-<title>Shiny_Resources.utf8</title>
+<title>Data Wrangling R Commands</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -335,7 +336,7 @@ div.tocify {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Lists with links to research and teaching resources</a>
+      <a class="navbar-brand" href="index.html">Research/Teaching/Career resources</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -357,30 +358,57 @@ div.tocify {
 
 
 
+<h1 class="title toc-ignore">Data Wrangling R Commands</h1>
+<h4 class="author"><a href="https://www.andreashandel.com/">Andreas Handel</a></h4>
+<h4 class="date">Last modified: 2020-01-08 14:45:38</h4>
 
 </div>
 
 
-<div id="resources-to-learn-shiny" class="section level1">
-<h1>Resources to learn Shiny</h1>
-<p><em>List maintained by <a href="http://handelgroup.uga.edu/">Andreas Handel</a>.</em></p>
-<p><em>If you know of other good resources, please contribute or let me know.</em></p>
-<p><em>Last updated 11/1/2019.</em></p>
-<div id="general-tutorials" class="section level2">
-<h2>General tutorials</h2>
-<ul>
-<li><a href="https://shiny.rstudio.com/">RStudio Shiny website</a></li>
-</ul>
+<p>This list is a collection of specific commands to do specific, often-needed (at least by me) data cleaning and prepping tasks in R. Most of the commands use the <a href="https://github.com/hadley/tidyverse">‘tidyverse’ packages</a>. So to make sure commands work, you need the corresponding packages, most simply done by <code>install.packages(tidyverse)</code> to get them <em>all</em>.</p>
+<p>Also check out the data wrangling related cheat-sheets <a href="https://www.rstudio.com/resources/cheatsheets/">here at R Studio’s website</a>.</p>
+<p><strong>Conventions:</strong> The data is assumed to be a data frame called <code>dat</code>, I’m using the pipe-operator notation, the outcome of interest is called <code>outcome</code>, variables are <code>var1</code>, <code>var2</code>, etc. or just refered to as <code>varname</code></p>
+<div id="renaming-a-columnvariable" class="section level3">
+<h3>Renaming a column/variable</h3>
+<p><code>newdat &lt;- dat %&gt;% rename(newvarname = oldvarname)</code></p>
 </div>
-<div id="books-and-tutorials" class="section level2">
-<h2>Books and tutorials</h2>
-<ul>
-<li><a href="https://thinkr-open.github.io/building-shiny-apps-workflow/">Building Big Shiny Apps - A Workflow</a></li>
-</ul>
+<div id="renaming-values-of-a-a-variable" class="section level3">
+<h3>Renaming values of a a variable</h3>
+<p>In this example, the value infctd in varname is replaced by ‘infected’</p>
+<p><code>newdat &lt;- dat %&gt;% mutate(varname = replace(varname, varname=='infctd','infected')</code></p>
 </div>
-<div id="online-courses" class="section level2">
-<h2>Online Courses</h2>
+<div id="resorting-variables" class="section level3">
+<h3>Resorting variables</h3>
+<p>While usually it doesn’t matter at which position which variable is, sometimes it’s more convenient to for instance have the outcome at the beginning. This can be done as follows:</p>
+<p><code>newdat &lt;- dat %&gt;% select(outcome, everything() )</code></p>
+<p>More general sorting/arranging can be done like this (if you don’t have too many variables):</p>
+<p><code>newdat &lt;- dat %&gt;% select(var1, var2, var3, var4, ... )</code></p>
 </div>
+<div id="remove-variables" class="section level3">
+<h3>Remove variables</h3>
+<p>Either just pick the ones you want to keep</p>
+<p><code>newdat &lt;- dat %&gt;% select ( c(var1,var2,var3))</code></p>
+<p>Or delete the ones you don’t want to keep</p>
+<p><code>newdat &lt;- dat %&gt;% select ( -c(var4,var5,var6) )</code></p>
+</div>
+<div id="add-a-variabe" class="section level3">
+<h3>Add a variabe</h3>
+<p><code>newdat &lt;- dat %&gt;% mutate( newvar = var3*var4)</code></p>
+</div>
+<div id="filter-rows-based-on-values-of-a-specific-variable" class="section level3">
+<h3>Filter rows based on values of a specific variable</h3>
+<p><code>newdat &lt;- dat %&gt;% filter( var == 3)</code></p>
+<p><code>newdat &lt;- dat %&gt;% filter( !is.na(var) )</code></p>
+</div>
+<div id="checking-for-na" class="section level3">
+<h3>Checking for NA</h3>
+<p>Lists numbers of NA for each column/variable <code>print(colSums(is.na(dat)))</code></p>
+<p>Nice graphical way using the Amelia package</p>
+<p><code>library(Amelia); missmap(dat)</code></p>
+</div>
+<div id="replace-all-values-in-a-data-frame-with-a-different-value" class="section level3">
+<h3>Replace all values in a data frame with a different value</h3>
+<p>add</p>
 </div>
 
 
@@ -429,7 +457,7 @@ $(document).ready(function ()  {
 
     // establish options
     var options = {
-      selectors: "h1,h2",
+      selectors: "h1,h2,h3",
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {

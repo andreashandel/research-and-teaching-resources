@@ -9,9 +9,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
+<meta name="author" content="Andreas Handel" />
 
 
-<title>IDmodeling_Resources.utf8</title>
+<title>Infectious Disease Modeling</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -335,7 +336,7 @@ div.tocify {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Lists with links to research and teaching resources</a>
+      <a class="navbar-brand" href="index.html">Research/Teaching/Career resources</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -357,34 +358,43 @@ div.tocify {
 
 
 
+<h1 class="title toc-ignore">Infectious Disease Modeling</h1>
+<h4 class="author"><a href="https://www.andreashandel.com/">Andreas Handel</a></h4>
+<h4 class="date">Last modified: 2020-01-08 14:39:38</h4>
 
 </div>
 
 
-<div id="resources-to-do-infectious-disease-modeling-in-r" class="section level1">
-<h1>Resources to do Infectious Disease Modeling (in R)</h1>
-<p><em>List maintained by Andreas Handel (<a href="mailto:ahandel@uga.edu" class="email">ahandel@uga.edu</a>). Last updated 9/2/2016.</em></p>
-<p><em>If you know of other good resources, please let me know.</em></p>
-<div id="conceptualgeneral-resources" class="section level2">
-<h2>Conceptual/General Resources</h2>
+<div id="general-resources" class="section level1">
+<h1>General Resources</h1>
 <ul>
 <li><p>The folks behind the <a href="https://www.coursera.org/learn/epidemics">Epidemics MOOC</a> produced <a href="http://epidemics.psu.edu/">a webpage with interesting ID related resources</a></p></li>
 <li><p><a href="https://nrich.maths.org/epidemic">A number of teaching resources for various aspects of infectious disease dynamics</a></p></li>
 </ul>
 </div>
-<div id="books" class="section level2">
-<h2>Books</h2>
+<div id="books" class="section level1">
+<h1>Books</h1>
 <p>Sorted in order of difficulty (according to my opinion)</p>
 <ul>
 <li><p><a href="http://www.anintroductiontoinfectiousdiseasemodelling.com/">An introduction to infectious disease modeling by Emilia Vynnycky and Richard White</a></p></li>
 <li><p><a href="http://www.modelinginfectiousdiseases.org/">Modeling Infectious Diseases in Humans and Animals by Matt J. Keeling &amp; Pejman Rohani</a></p></li>
 </ul>
 </div>
-<div id="computational-resources" class="section level2">
-<h2>Computational Resources</h2>
-<p><a href="https://reconhub.github.io/">The R Epidemics Consortium</a> maintains several R packages related to infectious disease modeling.</p>
-<p><a href="http://kingaa.github.io/pomp/">The pomp R package to fit stochastic dynamic models (and more) to time-series data.</a></p>
+<div id="online-materials" class="section level1">
+<h1>Online materials</h1>
+<ul>
+<li><a href="https://ahgroup.github.io/DSAIDEbook/">My ID Epi online book draft</a></li>
+</ul>
 </div>
+<div id="software" class="section level1">
+<h1>Software</h1>
+<ul>
+<li><p>My ID modeling pacakges <a href="https://ahgroup.github.io/DSAIDE/">DSAIDE</a>, <a href="https://ahgroup.github.io/DSAIRM/">DSAIRM</a> and <a href="https://ahgroup.github.io/modelbuilder/">modelbuilder</a>.</p></li>
+<li><p><a href="https://reconhub.github.io/">The R Epidemics Consortium</a> maintains several R packages related to infectious disease modeling.</p></li>
+<li><p><a href="http://kingaa.github.io/pomp/">The pomp R package to fit stochastic dynamic models (and more) to time-series data.</a></p></li>
+<li><p><a href="http://epirecip.es/">The Epirecipes site</a></p></li>
+<li><p><a href="https://www.samabbott.co.uk/idmodelr/">idmodelr package</a></p></li>
+</ul>
 </div>
 
 
@@ -433,7 +443,7 @@ $(document).ready(function ()  {
 
     // establish options
     var options = {
-      selectors: "h1,h2",
+      selectors: "h1,h2,h3",
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
