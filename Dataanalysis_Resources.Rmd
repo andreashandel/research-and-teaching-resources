@@ -43,8 +43,6 @@ output:
 
 * [Elements of Statistical Learning](http://statweb.stanford.edu/~tibs/ElemStatLearn/) - This is the more advanced version by some of the same authors of the previous book. It gets technical, so only suitable once you got the basics figured out.
 
-* [Statistical foundations of machine learning](https://www.otexts.org/book/sfml) 
-
 * [Introduction to Data Science](http://jsresearch.net/index.html)
 
 * [Deep Learning book](http://www.deeplearningbook.org/)
@@ -114,7 +112,7 @@ output:
 
 * [Another stab at p-values](http://fivethirtyeight.com/features/statisticians-found-one-thing-they-can-agree-on-its-time-to-stop-misusing-p-values/)
 
-* [Great example explaining what p-values do and don't mean](http://livefreeordichotomize.com/2017/08/14/why-you-maybe-shouldnt-care-about-that-p-value./)
+* [Great example explaining what p-values do and don't mean](http://livefreeordichotomize.com/2017/08/14/why-you-maybe-shouldnt-care-about-that-p-value/)
 
 * [Another good discussion of the problem with p-values](https://emcrit.org/pulmcrit/p-value-cutoffs/)
 

@@ -29,7 +29,7 @@ output:
 
 * [Computerworld's R beginner guide](http://www.computerworld.com/s/article/9239625/Beginner\_s\_guide\_to\_R\_Introduction) 
 
-* ['R Meta book' - a list of resources on specific topics:](http://www.r-bloggers.com/an-r-meta-book/)
+* ['R Meta book' - a list of resources on specific topics:](https://www.r-bloggers.com/an-r-meta-book/)
 
 * [Springer has a series of books called 'Use R'](http://www.springer.com/series/6991) - A long and growing series of books on a lot of different R topics. From beginner to advanced. Many university libraries have a subscription to Springer Online, which allows you to get the books for free.
 
@@ -44,7 +44,7 @@ output:
 
 * [Cookbook for R](http://www.cookbook-r.com/) - another useful collection of 'how do I do X' information.
 
--   [R bloggers](r-bloggers.com) an aggregation of blogs about all things R
+-   [R bloggers](https://www.r-bloggers.com/) an aggregation of blogs about all things R
 
 -   [A great collection of R resources and tutorials](http://www.ats.ucla.edu/stat/r/)
 
