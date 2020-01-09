@@ -43,7 +43,9 @@ output:
 
 * [HCUP](http://www.hcup-us.ahrq.gov)  - collection of health related databases, focusing on US wide and state-specific samples of ER and hospital visits. Not free, but not too expensive.
 
-* [Clinical Study Data](https://www.clinicalstudydatarequest.com/) - a way to get (tedious) access to clinical trial data
+* [Clinical Study Data Request](https://www.clinicalstudydatarequest.com/) - a way to get (tedious) access to clinical trial data
+
+* [EMA Clinical Data Portal](https://clinicaldata.ema.europa.eu/web/cdp/home) - looks like a way to get access to some clinical trial data for EMA registered studies.
 
 * [MIMIC](https://mimic.physionet.org/) - a free and open database of critical care patient visits to a Boston hospital.
 
