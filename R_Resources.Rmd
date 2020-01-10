@@ -68,7 +68,8 @@ output:
 
 -   [Shiny examples](http://www.showmeshiny.com/)
 
--   [Collection of Shiny tips and tricks](https://github.com/daattali/advanced-shiny)
+-   [Collection of Shiny tips and tricks](https://github.com/daattali/advanced-shiny), [see also here](https://deanattali.com/blog/advanced-shiny-tips/
+) and [here](https://shiny.rstudio.com/articles/dynamic-ui.html)
 
 * [Building Big Shiny Apps - A Workflow](https://thinkr-open.github.io/building-shiny-apps-workflow/)
 
