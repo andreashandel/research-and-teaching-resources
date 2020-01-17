@@ -34,6 +34,7 @@ output:
 
 * Hadley taught a [Readings in applied data science] at Stanford [and the material is online](https://github.com/hadley/stats337) 
 
+* [A very well done set of online materials teaching some basic stats concepts](https://tinystats.github.io/teacups-giraffes-and-statistics/index.html).
 
 # Data Analysis books
 
