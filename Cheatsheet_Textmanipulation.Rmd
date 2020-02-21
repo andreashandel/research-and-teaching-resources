@@ -22,3 +22,9 @@ gsub("(#)(\\w)","\\1 \\2", text) # first symbol is a #, second is a word charact
 gsub("(#)([A-Z])","\\1 \\2", text) # first symbol is a #, second is an upper case letter. an empty space is inserted.
 ```
 
+## Replace text in a column of a dataframe
+
+This example replaces the text bit _NA_ (not the symbol that stands for missing) with the text "present" in a column called "Dates".
+```{r, eval = FALSE}
+dat %>% mutate( Dates = stringr::str_replace(Dates, "NA","present") ) %>%
+```
