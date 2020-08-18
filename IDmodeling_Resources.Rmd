@@ -27,7 +27,7 @@ Sorted in order of difficulty (according to my opinion)
 
 # Online materials
 
-* [My ID Epi online book draft](https://ahgroup.github.io/DSAIDEbook/)
+* [My ID Epi online book draft](https://ahgroup.github.io/IDEMAbook/)
 
 
 # Software 

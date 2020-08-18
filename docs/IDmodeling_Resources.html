@@ -24,6 +24,7 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
+<script src="site_libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
@@ -360,7 +361,7 @@ div.tocify {
 
 <h1 class="title toc-ignore">Infectious Disease Modeling</h1>
 <h4 class="author"><a href="https://www.andreashandel.com/">Andreas Handel</a></h4>
-<h4 class="date">Last modified: 2020-01-08 17:32:26</h4>
+<h4 class="date">Last modified: 2020-08-18 19:41:40</h4>
 
 </div>
 
@@ -383,7 +384,7 @@ div.tocify {
 <div id="online-materials" class="section level1">
 <h1>Online materials</h1>
 <ul>
-<li><a href="https://ahgroup.github.io/DSAIDEbook/">My ID Epi online book draft</a></li>
+<li><a href="https://ahgroup.github.io/IDEMAbook/">My ID Epi online book draft</a></li>
 </ul>
 </div>
 <div id="software" class="section level1">
@@ -447,7 +448,7 @@ $(document).ready(function ()  {
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
       },
       ignoreSelector: ".toc-ignore",
       scrollTo: 0

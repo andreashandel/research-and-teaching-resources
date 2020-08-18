@@ -24,6 +24,7 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
+<script src="site_libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
@@ -360,7 +361,7 @@ div.tocify {
 
 <h1 class="title toc-ignore">R Programming</h1>
 <h4 class="author"><a href="https://www.andreashandel.com/">Andreas Handel</a></h4>
-<h4 class="date">Last modified: 2020-01-14 10:50:37</h4>
+<h4 class="date">Last modified: 2020-08-18 19:44:25</h4>
 
 </div>
 
@@ -411,7 +412,7 @@ div.tocify {
 <li><p><a href="http://shiny.rstudio.com/">Official shiny webpage</a></p></li>
 <li><p><a href="http://www.showmeshiny.com/">Shiny examples</a></p></li>
 <li><p><a href="https://github.com/daattali/advanced-shiny">Collection of Shiny tips and tricks</a>, <a href="https://deanattali.com/blog/advanced-shiny-tips/">see also here</a> and <a href="https://shiny.rstudio.com/articles/dynamic-ui.html">here</a></p></li>
-<li><p><a href="https://thinkr-open.github.io/building-shiny-apps-workflow/">Building Big Shiny Apps - A Workflow</a></p></li>
+<li><p><a href="https://engineering-shiny.org/">Engineering Production-Grade Shiny Apps</a></p></li>
 </ul>
 </div>
 <div id="r-package-development" class="section level1">
@@ -476,7 +477,7 @@ $(document).ready(function ()  {
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
       },
       ignoreSelector: ".toc-ignore",
       scrollTo: 0
