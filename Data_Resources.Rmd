@@ -8,6 +8,7 @@ output:
     toc_depth: 3
 ---
 
+__This list needs cleaning.__
 
 
 ## General Data related resources
@@ -30,8 +31,6 @@ output:
 
 * [Kaggle Data](https://www.kaggle.com/datasets) - A growing number of datasets used in Kaggle data analysis contests and available for any other use.
 
-* [Project Tycho](https://www.tycho.pitt.edu/) - infectious disease data
-
 * [Quandl](http://www.quandl.com) - mainly finance related data
 
 * [NHANES](http://www.cdc.gov/nchs/nhanes.htm) - longstanding and thorough survey done by CDC
@@ -51,8 +50,6 @@ output:
 * [EMA Clinical Data Portal](https://clinicaldata.ema.europa.eu/web/cdp/home) - looks like a way to get access to some clinical trial data for EMA registered studies.
 
 * [MIMIC](https://mimic.physionet.org/) - a free and open database of critical care patient visits to a Boston hospital.
-
-* [ClinEpiDB](https://clinepidb.org) - a database of (a few) clinical epidemiology studies, focusing on infectious diseases. 
 
 * [Data.gov](http://www.data.gov/) - federak government data platform.
 
@@ -75,3 +72,30 @@ output:
 * [Database to search health related government data](https://www.healthdata.gov/)
 
 * [A list hosted by Microsoft with links to various data sources](http://mran.revolutionanalytics.com/documents/data/)
+
+
+## Infectious disease specific
+
+### General
+* [Project Tycho](https://www.tycho.pitt.edu/) - infectious disease data
+* http://www.viprbrc.org
+* http://www.broadinstitute.org/
+* http://pathogenportal.net/portal/portal/PathPort/Home
+* http://eupathdb.org
+* [ClinEpiDB](https://clinepidb.org) - a database of (a few) clinical epidemiology studies, focusing on infectious diseases. 
+* https://immport.niaid.nih.gov
+
+### Influenza 
+* http://www.fludb.org
+*	WHO Flunet
+*	gisaid.org
+*	http://www.cdc.gov/flu/index.htm
+*	http://www.ncbi.nlm.nih.gov/genomes/FLU/FLU.html
+*	SystemsInfluenza.org
+
+### TB 
+*	OTIS on CDC WONDER: http://wonder.cdc.gov/tb.html
+*	http://www.broadinstitute.org/annotation/tbsysbio/
+
+
+
