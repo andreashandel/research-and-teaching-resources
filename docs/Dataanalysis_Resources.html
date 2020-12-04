@@ -14,6 +14,7 @@
 
 <title>Data Analysis and Statistics</title>
 
+<script src="site_libs/header-attrs-2.5/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
@@ -24,9 +25,19 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<script src="site_libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 
 
@@ -361,7 +372,7 @@ div.tocify {
 
 <h1 class="title toc-ignore">Data Analysis and Statistics</h1>
 <h4 class="author"><a href="https://www.andreashandel.com/">Andreas Handel</a></h4>
-<h4 class="date">Last modified: 2020-08-18 19:41:06</h4>
+<h4 class="date">Last modified: 2020-12-04 16:28:52</h4>
 
 </div>
 
@@ -394,6 +405,7 @@ div.tocify {
 <li><p><a href="http://www-bcf.usc.edu/~gareth/ISL/">Introduction to Statistical Learning</a> - This book is your logical next step. Once you got your data cleaned and done preliminary analyses following the instructions in the previous book, this book will teach different statistical modeling/analysis approaches. Also R based and freely available online.</p></li>
 <li><p><a href="http://statweb.stanford.edu/~tibs/ElemStatLearn/">Elements of Statistical Learning</a> - This is the more advanced version by some of the same authors of the previous book. It gets technical, so only suitable once you got the basics figured out.</p></li>
 <li><p><a href="http://jsresearch.net/index.html">Introduction to Data Science</a></p></li>
+<li><p><a href="https://datascienceineducation.com/">Data Science in Education</a> - all R, nice walk-through case-studies of different datasets and topics one might encounter in education.</p></li>
 <li><p><a href="http://www.deeplearningbook.org/">Deep Learning book</a></p></li>
 <li><p><a href="https://stat545.com/">Stat 545</a> - Jenny Bryan’s book based on her previous teaching of a course by that name (see above)</p></li>
 </ul>
@@ -488,7 +500,7 @@ div.tocify {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();

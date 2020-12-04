@@ -46,6 +46,8 @@ output:
 
 * [Introduction to Data Science](http://jsresearch.net/index.html)
 
+* [Data Science in Education](https://datascienceineducation.com/) - all R, nice walk-through case-studies of different datasets and topics one might encounter in education.
+
 * [Deep Learning book](http://www.deeplearningbook.org/)
 
 * [Stat 545](https://stat545.com/) - Jenny Bryan's book based on her previous teaching of a course by that name (see above)
