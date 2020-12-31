@@ -29,6 +29,7 @@ Sorted in order of difficulty (according to my opinion)
 
 * [My ID Epi online book draft](https://andreashandel.github.io/IDEMAbook/)
 
+* [Model fitting and inference for infectious disease dynamics](http://sbfnk.github.io/mfiidd/index.html). Materials for an online course. 
 
 # Software 
 
