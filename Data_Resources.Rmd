@@ -25,10 +25,6 @@ __This list needs cleaning.__
 ## Some data Sources
 (listed in no particular order)
 
-* [Vanderbilt biostats list of data sources](http://biostat.mc.vanderbilt.edu/wiki/Main/DataSets) - a list with links to various directly available data sources, and another list with links at the bottom.
-
-* [DataMed](https://datamed.org) - A new search engine and interface that is meant to allow search and access to multiple datasets.
-
 * [Kaggle Data](https://www.kaggle.com/datasets) - A growing number of datasets used in Kaggle data analysis contests and available for any other use.
 
 * [Quandl](http://www.quandl.com) - mainly finance related data
@@ -38,8 +34,6 @@ __This list needs cleaning.__
 * [SEER](http://seer.cancer.gov/) - Cancer data
 
 * [CDC WONDER](http://wonder.cdc.gov/) - list of mainly CDC online databases
-
-* [UCLA School of Public Health Data Repository](https://publicdata.ph.ucla.edu/pages/) - some sets of data from their studies
 
 * [Healthy People Website](https://www.healthypeople.gov/) - contains among other things links to various data sources
 
@@ -79,11 +73,10 @@ __This list needs cleaning.__
 ### General
 * [Project Tycho](https://www.tycho.pitt.edu/) - infectious disease data
 * http://www.viprbrc.org
-* http://www.broadinstitute.org/
 * http://pathogenportal.net/portal/portal/PathPort/Home
 * http://eupathdb.org
 * [ClinEpiDB](https://clinepidb.org) - a database of (a few) clinical epidemiology studies, focusing on infectious diseases. 
-* https://immport.niaid.nih.gov
+* [ImmPort](https://immport.niaid.nih.gov)
 
 ### Influenza 
 * http://www.fludb.org

@@ -20,9 +20,7 @@ output:
 
 # Specific tools
 
-- [Collection of tutorials on R, Github, knitr, etc. by Karl Broman](http://kbroman.org/pages/tutorials.html)
-
-- [A great online book (draft) for using Git(hub) and R(Studio)](http://happygitwithr.com/)
+* [A great online book (draft) for using Git(hub) and R(Studio)](http://happygitwithr.com/)
 
 * [Rmarkdown template for NIH grant proposals](https://github.com/corybrunson/NIH-proposal-template)
 

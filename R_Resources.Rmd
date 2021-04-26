@@ -44,19 +44,13 @@ output:
 
 * [Cookbook for R](http://www.cookbook-r.com/) - another useful collection of 'how do I do X' information.
 
--   [R bloggers](https://www.r-bloggers.com/) an aggregation of blogs about all things R
+* [R bloggers](https://www.r-bloggers.com/) an aggregation of blogs about all things R
 
--   [A great collection of R resources and tutorials](http://www.ats.ucla.edu/stat/r/)
+* [Convenient reference/cheat sheets for some important R tasks](https://www.rstudio.com/resources/cheatsheets/)
 
--   [A very unique Pinterest board :) ](http://www.pinterest.com/zellner/fun-projects-for-r/)
+* [Resource collection to do useful data analysis related tasks in R](http://rddj.info/)
 
--   [Convenient reference/cheat sheets for some important R tasks](https://www.rstudio.com/resources/cheatsheets/)
-
--   [Resource collection to do useful data analysis related tasks in R](http://rddj.info/)
-
--   [Collection of links for R learning](http://blog.revolutionanalytics.com/2015/10/learning-r-oct-2015.html)
-
-- [R Documentation:](https://www.rdocumentation.org/) - a webpage and R package that tries to enhance the help/documentation files for R and its packages.
+*  [R Documentation:](https://www.rdocumentation.org/) - a webpage and R package that tries to enhance the help/documentation files for R and its packages.
 
 * [The Task View sorting R packages into categories is often useful](http://cran.r-project.org/web/views/)
 
@@ -64,11 +58,9 @@ output:
 	
 # R and Shiny
 
--   [Official shiny webpage](http://shiny.rstudio.com/)
+* [Official shiny webpage](http://shiny.rstudio.com/)
 
--   [Shiny examples](http://www.showmeshiny.com/)
-
--   [Collection of Shiny tips and tricks](https://github.com/daattali/advanced-shiny), [see also here](https://deanattali.com/blog/advanced-shiny-tips/
+* [Collection of Shiny tips and tricks](https://github.com/daattali/advanced-shiny), [see also here](https://deanattali.com/blog/advanced-shiny-tips/
 ) and [here](https://shiny.rstudio.com/articles/dynamic-ui.html)
 
 * [Engineering Production-Grade Shiny Apps](https://engineering-shiny.org/)
