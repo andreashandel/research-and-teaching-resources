@@ -52,6 +52,7 @@ output:
 
 * [Stat 545](https://stat545.com/) - Jenny Bryan's book based on her previous teaching of a course by that name (see above)
 
+* [The Effect: An Introduction to Research Design and Causality](https://theeffectbook.net/) - focus on causal inference.
 
 # Online tutorials
 

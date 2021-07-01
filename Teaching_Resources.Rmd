@@ -1,0 +1,20 @@
+---
+title: "Teaching Tools"
+subtitle: ""
+author: "[Andreas Handel](https://www.andreashandel.com/)"
+date: "Last modified: `r file.mtime(knitr::current_input())`"
+output: 
+  html_document:
+    toc_depth: 3
+---
+
+
+
+# Software
+
+* [learnr](https://rstudio.github.io/learnr/) - R package that allows development of interactive web-based R tutorials.
+
+
+# Other
+
+* [Bioicons](https://bioicons.com/) - a collection of free drawings and diagrams on biological topics, which can be used in teaching (or research) presentations.

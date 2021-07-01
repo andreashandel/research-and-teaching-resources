@@ -35,9 +35,9 @@ __This list needs cleaning.__
 
 * [CDC WONDER](http://wonder.cdc.gov/) - list of mainly CDC online databases
 
-* [Healthy People Website](https://www.healthypeople.gov/) - contains among other things links to various data sources
+* [Healthy People Website](https://health.gov/healthypeople) - contains among other things links to various data sources
 
-* [HCUP](http://www.hcup-us.ahrq.gov)  - collection of health related databases, focusing on US wide and state-specific samples of ER and hospital visits. Not free, but not too expensive.
+* [HCUP](https://www.hcup-us.ahrq.gov/)  - collection of health related databases, focusing on US wide and state-specific samples of ER and hospital visits. Not free, but not too expensive.
 
 * [Clinical Study Data Request](https://www.clinicalstudydatarequest.com/) - a way to get (tedious) access to clinical trial data
 

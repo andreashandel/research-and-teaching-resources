@@ -30,19 +30,17 @@ If you have suggestions for updates/improvements or something doesn't work, let 
 
 The following lists contain mostly links and some of my own thoughts on specific topics.
 
-
 - [Career Topics:](./Career_Resources.html) (Academic/research) career related resources. 
 
 - [Data Sources:](./Data_Resources.html) Where to find potentially interesting data.
 
 - [Data Analysis and Stats:](./Dataanalysis_Resources.html) Data analysis and statistics related tasks, with a focus on R.
 
-- [Reading, managing and publishing papers:](./Literature_Resources.html) How to search and read the literature, how to stay up to date and manage references, how to publish.
-
 - [R Coding Topics:](./R_Resources.html) Resources for learning R in general and with learning specific R topics.
 
 - [Reproducible Research, Workflow management:](./ReproducibleResearch_Resources.html) Reproducible research (with a focus on the data analysis aspect) and links to tools (RMarkdown).
 
+- [Teaching](./Teaching_Resources.html) - various links to teaching-related topics and tools.
 
  
 ## Cheat Sheets
@@ -57,7 +55,7 @@ The following documents contain collections of R code snippets and pointers for 
 
 
 
-## Acknowledgements
+# Acknowledgements
 
 This site is maintained by [Andreas Handel](https://www.andreashandel.com/).
 
