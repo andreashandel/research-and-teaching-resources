@@ -13,6 +13,18 @@ output:
 # Software
 
 * [learnr](https://rstudio.github.io/learnr/) - R package that allows development of interactive web-based R tutorials.
+* [Feedback at scale](https://minecr.shinyapps.io/feedback-at-scale/) - tutorial for using `learnr` and `gradethis` as teaching tools.
+
+
+# Books
+
+* [rstudio4edu](https://rstudio4edu.github.io/rstudio4edu-book/) - A Handbook for Teaching and Learning with R and RStudio - still very much a draft.
+
+
+
+# Online Resources
+
+* [Teaching Statistics and Data Science Online](https://mine-cetinkaya-rundel.github.io/teach-r-online/) - materials for several teacher workshops taught by [Mine Çetinkaya-Rundel](https://www2.stat.duke.edu/~mc301/).
 
 
 # Other
