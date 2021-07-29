@@ -66,6 +66,10 @@ output:
 * [Engineering Production-Grade Shiny Apps](https://engineering-shiny.org/)
 
 
+# R Markdown and related
+* [Collection of R Markdown Tips and Tricks](https://indrajeetpatil.github.io/RmarkdownTips/)
+
+
 # R package development
 
 * ["R packages" by Hadley Wickham](http://r-pkgs.had.co.nz/). This (free online) book alone is enough to get a package done. Should definitely be the first (and maybe even only) source to read/use.

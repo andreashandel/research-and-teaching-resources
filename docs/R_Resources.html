@@ -14,7 +14,7 @@
 
 <title>R Programming</title>
 
-<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
@@ -293,12 +293,12 @@ div.tocify {
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
 <div class="row">
-<div class="col-sm-12 col-md-4 col-lg-3">
+<div class="col-xs-12 col-sm-4 col-md-3">
 <div id="TOC" class="tocify">
 </div>
 </div>
 
-<div class="toc-content col-sm-12 col-md-8 col-lg-9">
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -335,7 +335,7 @@ div.tocify {
 
 <h1 class="title toc-ignore">R Programming</h1>
 <h4 class="author"><a href="https://www.andreashandel.com/">Andreas Handel</a></h4>
-<h4 class="date">Last modified: 2021-04-26 14:43:17</h4>
+<h4 class="date">Last modified: 2021-07-28 13:36:35</h4>
 
 </div>
 
@@ -383,6 +383,12 @@ div.tocify {
 <li><p><a href="http://shiny.rstudio.com/">Official shiny webpage</a></p></li>
 <li><p><a href="https://github.com/daattali/advanced-shiny">Collection of Shiny tips and tricks</a>, <a href="https://deanattali.com/blog/advanced-shiny-tips/">see also here</a> and <a href="https://shiny.rstudio.com/articles/dynamic-ui.html">here</a></p></li>
 <li><p><a href="https://engineering-shiny.org/">Engineering Production-Grade Shiny Apps</a></p></li>
+</ul>
+</div>
+<div id="r-markdown-and-related" class="section level1">
+<h1>R Markdown and related</h1>
+<ul>
+<li><a href="https://indrajeetpatil.github.io/RmarkdownTips/">Collection of R Markdown Tips and Tricks</a></li>
 </ul>
 </div>
 <div id="r-package-development" class="section level1">
@@ -435,6 +441,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')
