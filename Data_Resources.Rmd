@@ -73,7 +73,6 @@ __This list needs cleaning.__
 ### General
 * [Project Tycho](https://www.tycho.pitt.edu/) - infectious disease data
 * http://www.viprbrc.org
-* http://pathogenportal.net/portal/portal/PathPort/Home
 * http://eupathdb.org
 * [ClinEpiDB](https://clinepidb.org) - a database of (a few) clinical epidemiology studies, focusing on infectious diseases. 
 * [ImmPort](https://immport.niaid.nih.gov)
