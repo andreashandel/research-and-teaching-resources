@@ -14,7 +14,7 @@ output:
 
 - [Article about possible problems with research](http://fivethirtyeight.com/features/science-isnt-broken/)
 
-- [Another blog post discussing (lack of) reproducibility in science](http://blogs.plos.org/thestudentblog/2016/08/05/the-irreproducibility-crisis-an-opportunity-to-make-science-better/)
+- [Another blog post discussing (lack of) reproducibility in science](https://ecrcommunity.plos.org/2016/08/05/the-irreproducibility-crisis-an-opportunity-to-make-science-better/)
 
 
 
