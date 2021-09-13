@@ -91,8 +91,6 @@ output:
 
 * [R Graph Gallery](http://www.r-graph-gallery.com/): Has lots of examples of graphs and plots in R, including the underlying code that produced the graph. Great place to find a graph similar to one you'd like to make, take the code and adjust it.
 
-* [This website](http://www.sthda.com/english/wiki/ggplot2-easy-way-to-mix-multiple-graphs-on-the-same-page) has a nice article describing ways to create different multi-panel plots.
-
 
 ## Missing Data/Imputation
 

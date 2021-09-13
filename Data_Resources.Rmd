@@ -27,7 +27,7 @@ __This list needs cleaning.__
 
 * [Kaggle Data](https://www.kaggle.com/datasets) - A growing number of datasets used in Kaggle data analysis contests and available for any other use.
 
-* [Quandl](http://www.quandl.com) - mainly finance related data
+* [Nasdaq Data Link](https://data.nasdaq.com/) - mainly finance related data
 
 * [NHANES](http://www.cdc.gov/nchs/nhanes.htm) - longstanding and thorough survey done by CDC
 
