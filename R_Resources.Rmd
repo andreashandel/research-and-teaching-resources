@@ -59,11 +59,11 @@ output:
 # R and Shiny
 
 * [Official shiny webpage](http://shiny.rstudio.com/)
-
 * [Collection of Shiny tips and tricks](https://github.com/daattali/advanced-shiny), [see also here](https://deanattali.com/blog/advanced-shiny-tips/
 ) and [here](https://shiny.rstudio.com/articles/dynamic-ui.html)
-
 * [Engineering Production-Grade Shiny Apps](https://engineering-shiny.org/)
+* [Outstanding User Interfaces with Shiny](https://unleash-shiny.rinterface.com/) - a book covering advanced Shiny material, covering advanced styling, mobile development, integration with other web technologies, etc.
+
 
 
 # R Markdown and related
