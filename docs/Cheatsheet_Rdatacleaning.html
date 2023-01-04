@@ -14,8 +14,8 @@
 
 <title>Data Wrangling R Commands</title>
 
-<script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -51,6 +51,7 @@
 
 
 
+
 <link rel="stylesheet" href="ahdefault.css" type="text/css" />
 
 
@@ -75,6 +76,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -132,11 +136,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -165,8 +173,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -174,16 +182,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -306,7 +307,7 @@ div.tocify {
 <div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -334,29 +335,46 @@ div.tocify {
 
 
 <h1 class="title toc-ignore">Data Wrangling R Commands</h1>
-<h4 class="author"><a href="https://www.andreashandel.com/">Andreas Handel</a></h4>
+<h4 class="author"><a href="https://www.andreashandel.com/">Andreas
+Handel</a></h4>
 <h4 class="date">Last modified: 2021-04-26 14:32:50</h4>
 
 </div>
 
 
-<p>This list is a collection of specific commands to do specific, often-needed (at least by me) data cleaning and prepping tasks in R. Most of the commands use the <a href="https://github.com/hadley/tidyverse">‘tidyverse’ packages</a>. So to make sure commands work, you need the corresponding packages, most simply done by <code>install.packages(tidyverse)</code> to get them <em>all</em>.</p>
-<p>Also check out the data wrangling related cheat-sheets <a href="https://www.rstudio.com/resources/cheatsheets/">here at R Studio’s website</a>.</p>
-<p><strong>Conventions:</strong> The data is assumed to be a data frame called <code>dat</code>, I’m using the pipe-operator notation, the outcome of interest is called <code>outcome</code>, variables are <code>var1</code>, <code>var2</code>, etc. or just refered to as <code>varname</code></p>
+<p>This list is a collection of specific commands to do specific,
+often-needed (at least by me) data cleaning and prepping tasks in R.
+Most of the commands use the <a
+href="https://github.com/hadley/tidyverse">‘tidyverse’ packages</a>. So
+to make sure commands work, you need the corresponding packages, most
+simply done by <code>install.packages(tidyverse)</code> to get them
+<em>all</em>.</p>
+<p>Also check out the data wrangling related cheat-sheets <a
+href="https://www.rstudio.com/resources/cheatsheets/">here at R Studio’s
+website</a>.</p>
+<p><strong>Conventions:</strong> The data is assumed to be a data frame
+called <code>dat</code>, I’m using the pipe-operator notation, the
+outcome of interest is called <code>outcome</code>, variables are
+<code>var1</code>, <code>var2</code>, etc. or just refered to as
+<code>varname</code></p>
 <div id="renaming-a-columnvariable" class="section level3">
 <h3>Renaming a column/variable</h3>
 <p><code>newdat &lt;- dat %&gt;% rename(newvarname = oldvarname)</code></p>
 </div>
 <div id="renaming-values-of-a-a-variable" class="section level3">
 <h3>Renaming values of a a variable</h3>
-<p>In this example, the value infctd in varname is replaced by ‘infected’</p>
+<p>In this example, the value infctd in varname is replaced by
+‘infected’</p>
 <p><code>newdat &lt;- dat %&gt;% mutate(varname = replace(varname, varname=='infctd','infected')</code></p>
 </div>
 <div id="resorting-variables" class="section level3">
 <h3>Resorting variables</h3>
-<p>While usually it doesn’t matter at which position which variable is, sometimes it’s more convenient to for instance have the outcome at the beginning. This can be done as follows:</p>
+<p>While usually it doesn’t matter at which position which variable is,
+sometimes it’s more convenient to for instance have the outcome at the
+beginning. This can be done as follows:</p>
 <p><code>newdat &lt;- dat %&gt;% select(outcome, everything() )</code></p>
-<p>More general sorting/arranging can be done like this (if you don’t have too many variables):</p>
+<p>More general sorting/arranging can be done like this (if you don’t
+have too many variables):</p>
 <p><code>newdat &lt;- dat %&gt;% select(var1, var2, var3, var4, ... )</code></p>
 </div>
 <div id="remove-variables" class="section level3">
@@ -370,18 +388,21 @@ div.tocify {
 <h3>Add a variabe</h3>
 <p><code>newdat &lt;- dat %&gt;% mutate( newvar = var3*var4)</code></p>
 </div>
-<div id="filter-rows-based-on-values-of-a-specific-variable" class="section level3">
+<div id="filter-rows-based-on-values-of-a-specific-variable"
+class="section level3">
 <h3>Filter rows based on values of a specific variable</h3>
 <p><code>newdat &lt;- dat %&gt;% filter( var == 3)</code></p>
 <p><code>newdat &lt;- dat %&gt;% filter( !is.na(var) )</code></p>
 </div>
 <div id="checking-for-na" class="section level3">
 <h3>Checking for NA</h3>
-<p>Lists numbers of NA for each column/variable <code>print(colSums(is.na(dat)))</code></p>
+<p>Lists numbers of NA for each column/variable
+<code>print(colSums(is.na(dat)))</code></p>
 <p>Nice graphical way using the Amelia package</p>
 <p><code>library(Amelia); missmap(dat)</code></p>
 </div>
-<div id="replace-all-values-in-a-data-frame-with-a-different-value" class="section level3">
+<div id="replace-all-values-in-a-data-frame-with-a-different-value"
+class="section level3">
 <h3>Replace all values in a data frame with a different value</h3>
 <p>add</p>
 </div>

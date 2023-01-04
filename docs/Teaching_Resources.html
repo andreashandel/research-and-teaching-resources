@@ -14,8 +14,8 @@
 
 <title>Teaching Tools</title>
 
-<script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -51,6 +51,7 @@
 
 
 
+
 <link rel="stylesheet" href="ahdefault.css" type="text/css" />
 
 
@@ -75,6 +76,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -132,11 +136,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -165,8 +173,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -174,16 +182,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -306,7 +307,7 @@ div.tocify {
 <div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -334,7 +335,8 @@ div.tocify {
 
 
 <h1 class="title toc-ignore">Teaching Tools</h1>
-<h4 class="author"><a href="https://www.andreashandel.com/">Andreas Handel</a></h4>
+<h4 class="author"><a href="https://www.andreashandel.com/">Andreas
+Handel</a></h4>
 <h4 class="date">Last modified: 2021-07-01 08:23:01</h4>
 
 </div>
@@ -343,26 +345,38 @@ div.tocify {
 <div id="software" class="section level1">
 <h1>Software</h1>
 <ul>
-<li><a href="https://rstudio.github.io/learnr/">learnr</a> - R package that allows development of interactive web-based R tutorials.</li>
-<li><a href="https://minecr.shinyapps.io/feedback-at-scale/">Feedback at scale</a> - tutorial for using <code>learnr</code> and <code>gradethis</code> as teaching tools.</li>
+<li><a href="https://rstudio.github.io/learnr/">learnr</a> - R package
+that allows development of interactive web-based R tutorials.</li>
+<li><a href="https://minecr.shinyapps.io/feedback-at-scale/">Feedback at
+scale</a> - tutorial for using <code>learnr</code> and
+<code>gradethis</code> as teaching tools.</li>
 </ul>
 </div>
 <div id="books" class="section level1">
 <h1>Books</h1>
 <ul>
-<li><a href="https://rstudio4edu.github.io/rstudio4edu-book/">rstudio4edu</a> - A Handbook for Teaching and Learning with R and RStudio - still very much a draft.</li>
+<li><a
+href="https://rstudio4edu.github.io/rstudio4edu-book/">rstudio4edu</a> -
+A Handbook for Teaching and Learning with R and RStudio - still very
+much a draft.</li>
 </ul>
 </div>
 <div id="online-resources" class="section level1">
 <h1>Online Resources</h1>
 <ul>
-<li><a href="https://mine-cetinkaya-rundel.github.io/teach-r-online/">Teaching Statistics and Data Science Online</a> - materials for several teacher workshops taught by <a href="https://www2.stat.duke.edu/~mc301/">Mine Çetinkaya-Rundel</a>.</li>
+<li><a
+href="https://mine-cetinkaya-rundel.github.io/teach-r-online/">Teaching
+Statistics and Data Science Online</a> - materials for several teacher
+workshops taught by <a href="https://www2.stat.duke.edu/~mc301/">Mine
+Çetinkaya-Rundel</a>.</li>
 </ul>
 </div>
 <div id="other" class="section level1">
 <h1>Other</h1>
 <ul>
-<li><a href="https://bioicons.com/">Bioicons</a> - a collection of free drawings and diagrams on biological topics, which can be used in teaching (or research) presentations.</li>
+<li><a href="https://bioicons.com/">Bioicons</a> - a collection of free
+drawings and diagrams on biological topics, which can be used in
+teaching (or research) presentations.</li>
 </ul>
 </div>
 

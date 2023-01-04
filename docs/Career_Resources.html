@@ -14,8 +14,8 @@
 
 <title>Career Topics</title>
 
-<script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -51,6 +51,7 @@
 
 
 
+
 <link rel="stylesheet" href="ahdefault.css" type="text/css" />
 
 
@@ -75,6 +76,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -132,11 +136,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -165,8 +173,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -174,16 +182,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -306,7 +307,7 @@ div.tocify {
 <div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -334,7 +335,8 @@ div.tocify {
 
 
 <h1 class="title toc-ignore">Career Topics</h1>
-<h4 class="author"><a href="https://www.andreashandel.com/">Andreas Handel</a></h4>
+<h4 class="author"><a href="https://www.andreashandel.com/">Andreas
+Handel</a></h4>
 <h4 class="date">Last modified: 2021-04-26 14:32:50</h4>
 
 </div>
@@ -343,40 +345,60 @@ div.tocify {
 <div id="general" class="section level2">
 <h2>General</h2>
 <ul>
-<li><p><a href="https://www.insidehighered.com/career-advice/carpe-careers">(Academic) career related essays</a></p></li>
-<li><p><a href="http://www.nature.com/scitable/topic/career-planning-14121550">A collection of resources on (scientific) career planning</a> from the Nature Publishing Group.</p></li>
-<li><p>A resource from the NIH toward <a href="http://www.nihbest.org/">Broadening Experiences in Scientific Training</a></p></li>
-<li><p>A good list of books on <a href="https://fastertomaster.com/ultimate-learning-how-to-learn-reading-list/">‘learning how to learn’</a></p></li>
+<li><p><a
+href="https://www.insidehighered.com/career-advice/carpe-careers">(Academic)
+career related essays</a></p></li>
+<li><p><a
+href="http://www.nature.com/scitable/topic/career-planning-14121550">A
+collection of resources on (scientific) career planning</a> from the
+Nature Publishing Group.</p></li>
+<li><p>A resource from the NIH toward <a
+href="http://www.nihbest.org/">Broadening Experiences in Scientific
+Training</a></p></li>
+<li><p>A good list of books on <a
+href="https://fastertomaster.com/ultimate-learning-how-to-learn-reading-list/">‘learning
+how to learn’</a></p></li>
 </ul>
 </div>
 <div id="individual-development-plan-idp" class="section level2">
 <h2>Individual development plan (IDP)</h2>
 <ul>
-<li><a href="https://myidp.sciencecareers.org/">myIDP from AAAS.</a> Free IDP focused on scientific career planning.</li>
+<li><a href="https://myidp.sciencecareers.org/">myIDP from AAAS.</a>
+Free IDP focused on scientific career planning.</li>
 </ul>
 </div>
 <div id="postdoc-related" class="section level2">
 <h2>Postdoc related</h2>
 <ul>
-<li><a href="https://www.insidehighered.com/advice/2016/08/23/should-you-pursue-postdoc-or-not-essay">Thoughts on doing a postdoc or not</a></li>
+<li><a
+href="https://www.insidehighered.com/advice/2016/08/23/should-you-pursue-postdoc-or-not-essay">Thoughts
+on doing a postdoc or not</a></li>
 </ul>
 </div>
 <div id="data-science-internships" class="section level2">
 <h2>Data Science Internships</h2>
 <ul>
-<li><a href="http://www.triageconsulting.com/">Insight Data Science</a> arranges short internships with some of the big names.</li>
+<li><a href="http://www.triageconsulting.com/">Insight Data Science</a>
+arranges short internships with some of the big names.</li>
 </ul>
 </div>
 <div id="academic-job-searchhiring" class="section level2">
 <h2>Academic job search/hiring</h2>
 <ul>
-<li><a href="https://chroniclevitae.com/news/1599-reading-your-application-file">This blog post provides a nice description how applications for faculty positions are reviewed</a>. From my own experience having been on and chaired several faculty searches, I think it’s a fairly accurate description.</li>
+<li><a
+href="https://chroniclevitae.com/news/1599-reading-your-application-file">This
+blog post provides a nice description how applications for faculty
+positions are reviewed</a>. From my own experience having been on and
+chaired several faculty searches, I think it’s a fairly accurate
+description.</li>
 </ul>
 </div>
 <div id="academic-career" class="section level2">
 <h2>Academic career</h2>
 <ul>
-<li><a href="https://www.castoredc.com/blog/50-actionable-tips-to-help-you-survive-your-phd/">Tips to have a productive PhD</a></li>
+<li><a
+href="https://www.castoredc.com/blog/50-actionable-tips-to-help-you-survive-your-phd/">Tips
+to have a productive PhD</a></li>
 </ul>
 </div>
 

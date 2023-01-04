@@ -13,8 +13,8 @@
 
 <title>Research and Teaching Resources</title>
 
-<script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -47,6 +47,7 @@
 
 
 
+
 <link rel="stylesheet" href="ahdefault.css" type="text/css" />
 
 
@@ -71,6 +72,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -128,11 +132,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -161,8 +169,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -170,16 +178,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -223,7 +224,7 @@ $(document).ready(function () {
 <div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -257,41 +258,73 @@ $(document).ready(function () {
 
 <div id="overview" class="section level1">
 <h1>Overview</h1>
-<p>This small website contains a collection of lists with links to various resources that are related to my (<a href="https://www.andreashandel.com/">Andreas Handel</a>) research and teaching, as well as some general (academic) career content.</p>
-<p>This mainly a collection of links to other sources. Some pages contain a few of my own thoughts on specific topics. The content is heavily biased toward my work. For research topics, the focus is in statistics/data analysis, infectious disease modeling and the R programming language. The other lists focus on research/academic careers and topics related to it.</p>
-<p>Some lists contain a decent amount of information, others are fairly short/empty. All of the lists are subject to (infrequent) change/updates - whenever I get to it or come across sources I find interesting enough to ‘bookmark’ by adding them to one of the lists.</p>
-<p>The main reason for these lists is so I can find stuff again. If others benefit from some of the listed links, even better.</p>
-<p>If you have suggestions for updates/improvements or something doesn’t work, let me know (using github issues or pull requests).</p>
+<p>This small website contains a collection of lists with links to
+various resources that are related to my (<a
+href="https://www.andreashandel.com/">Andreas Handel</a>) research and
+teaching, as well as some general (academic) career content.</p>
+<p>This mainly a collection of links to other sources. Some pages
+contain a few of my own thoughts on specific topics. The content is
+heavily biased toward my work. For research topics, the focus is in
+statistics/data analysis, infectious disease modeling and the R
+programming language. The other lists focus on research/academic careers
+and topics related to it.</p>
+<p>Some lists contain a decent amount of information, others are fairly
+short/empty. All of the lists are subject to (infrequent) change/updates
+- whenever I get to it or come across sources I find interesting enough
+to ‘bookmark’ by adding them to one of the lists.</p>
+<p>The main reason for these lists is so I can find stuff again. If
+others benefit from some of the listed links, even better.</p>
+<p>If you have suggestions for updates/improvements or something doesn’t
+work, let me know (using github issues or pull requests).</p>
 </div>
 <div id="content" class="section level1">
 <h1>Content</h1>
 <div id="general-lists" class="section level2">
 <h2>General Lists</h2>
-<p>The following lists contain mostly links and some of my own thoughts on specific topics.</p>
+<p>The following lists contain mostly links and some of my own thoughts
+on specific topics.</p>
 <ul>
-<li><p><a href="./Career_Resources.html">Career Topics:</a> (Academic/research) career related resources.</p></li>
-<li><p><a href="./Data_Resources.html">Data Sources:</a> Where to find potentially interesting data.</p></li>
-<li><p><a href="./Dataanalysis_Resources.html">Data Analysis and Stats:</a> Data analysis and statistics related tasks, with a focus on R.</p></li>
-<li><p><a href="./R_Resources.html">R Coding Topics:</a> Resources for learning R in general and with learning specific R topics.</p></li>
-<li><p><a href="./ReproducibleResearch_Resources.html">Reproducible Research, Workflow management:</a> Reproducible research (with a focus on the data analysis aspect) and links to tools (RMarkdown).</p></li>
-<li><p><a href="./Teaching_Resources.html">Teaching</a> - various links to teaching-related topics and tools.</p></li>
+<li><p><a href="./Career_Resources.html">Career Topics:</a>
+(Academic/research) career related resources.</p></li>
+<li><p><a href="./Data_Resources.html">Data Sources:</a> Where to find
+potentially interesting data.</p></li>
+<li><p><a href="./Dataanalysis_Resources.html">Data Analysis and
+Stats:</a> Data analysis and statistics related tasks, with a focus on
+R.</p></li>
+<li><p><a href="./R_Resources.html">R Coding Topics:</a> Resources for
+learning R in general and with learning specific R topics.</p></li>
+<li><p><a href="./ReproducibleResearch_Resources.html">Reproducible
+Research, Workflow management:</a> Reproducible research (with a focus
+on the data analysis aspect) and links to tools (RMarkdown).</p></li>
+<li><p><a href="./Teaching_Resources.html">Teaching</a> - various links
+to teaching-related topics and tools.</p></li>
 </ul>
 </div>
 <div id="cheat-sheets" class="section level2">
 <h2>Cheat Sheets</h2>
-<p>The following documents contain collections of R code snippets and pointers for things I need to do fairly often, but not often enough that I can remember.</p>
+<p>The following documents contain collections of R code snippets and
+pointers for things I need to do fairly often, but not often enough that
+I can remember.</p>
 <ul>
-<li><p><a href="./Cheatsheet_Rdatacleaning.html">Data Cleaning:</a> A list of commands for doing data cleaning/wrangling tasks.</p></li>
-<li><p><a href="./Cheatsheet_Rplotting.html">Plotting:</a> A list of commands for plotting in R (both base plot and ggplot).</p></li>
-<li><p><a href="./Cheatsheet_Textmanipulation.html">Text Manipulation:</a> A list of commands for working with text.</p></li>
+<li><p><a href="./Cheatsheet_Rdatacleaning.html">Data Cleaning:</a> A
+list of commands for doing data cleaning/wrangling tasks.</p></li>
+<li><p><a href="./Cheatsheet_Rplotting.html">Plotting:</a> A list of
+commands for plotting in R (both base plot and ggplot).</p></li>
+<li><p><a href="./Cheatsheet_Textmanipulation.html">Text
+Manipulation:</a> A list of commands for working with text.</p></li>
 </ul>
 </div>
 </div>
 <div id="acknowledgements" class="section level1">
 <h1>Acknowledgements</h1>
-<p>This site is maintained by <a href="https://www.andreashandel.com/">Andreas Handel</a>.</p>
-<p>The following individuals have contributed to improving the course: McKay Brian (<a href="https://github.com/bmckay">@bmckay</a>)</p>
-<p>The site is licensed under the <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. Linked materials are governed by their own licenses.</p>
+<p>This site is maintained by <a
+href="https://www.andreashandel.com/">Andreas Handel</a>.</p>
+<p>The following individuals have contributed to improving the course:
+McKay Brian (<a href="https://github.com/bmckay">@bmckay</a>)</p>
+<p>The site is licensed under the <a
+href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative
+Commons Attribution-NonCommercial-ShareAlike 4.0 International
+License</a>. Linked materials are governed by their own licenses.</p>
 </div>
 
 

@@ -14,8 +14,8 @@
 
 <title>Reproducible Research</title>
 
-<script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.19/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -51,6 +51,7 @@
 
 
 
+
 <link rel="stylesheet" href="ahdefault.css" type="text/css" />
 
 
@@ -75,6 +76,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -132,11 +136,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -165,8 +173,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -174,16 +182,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -306,7 +307,7 @@ div.tocify {
 <div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -334,7 +335,8 @@ div.tocify {
 
 
 <h1 class="title toc-ignore">Reproducible Research</h1>
-<h4 class="author"><a href="https://www.andreashandel.com/">Andreas Handel</a></h4>
+<h4 class="author"><a href="https://www.andreashandel.com/">Andreas
+Handel</a></h4>
 <h4 class="date">Last modified: 2021-08-15 12:07:06</h4>
 
 </div>
@@ -343,15 +345,22 @@ div.tocify {
 <div id="general-ideas" class="section level1">
 <h1>General Ideas</h1>
 <ul>
-<li><p><a href="http://fivethirtyeight.com/features/science-isnt-broken/">Article about possible problems with research</a></p></li>
-<li><p><a href="https://ecrcommunity.plos.org/2016/08/05/the-irreproducibility-crisis-an-opportunity-to-make-science-better/">Another blog post discussing (lack of) reproducibility in science</a></p></li>
+<li><p><a
+href="http://fivethirtyeight.com/features/science-isnt-broken/">Article
+about possible problems with research</a></p></li>
+<li><p><a
+href="https://ecrcommunity.plos.org/2016/08/05/the-irreproducibility-crisis-an-opportunity-to-make-science-better/">Another
+blog post discussing (lack of) reproducibility in science</a></p></li>
 </ul>
 </div>
 <div id="specific-tools" class="section level1">
 <h1>Specific tools</h1>
 <ul>
-<li><p><a href="http://happygitwithr.com/">A great online book (draft) for using Git(hub) and R(Studio)</a></p></li>
-<li><p><a href="https://github.com/corybrunson/NIH-proposal-template">Rmarkdown template for NIH grant proposals</a></p></li>
+<li><p><a href="http://happygitwithr.com/">A great online book (draft)
+for using Git(hub) and R(Studio)</a></p></li>
+<li><p><a
+href="https://github.com/corybrunson/NIH-proposal-template">Rmarkdown
+template for NIH grant proposals</a></p></li>
 </ul>
 </div>
 
