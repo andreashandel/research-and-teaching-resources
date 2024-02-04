@@ -21,6 +21,7 @@ __This list needs cleaning.__
 
 * [Google's Data Search Engine](https://toolbox.google.com/datasetsearch)
 
+* [Reddit forum related to data sources](https://www.reddit.com/r/datasets/)
 
 ## Some data Sources
 (listed in no particular order)
