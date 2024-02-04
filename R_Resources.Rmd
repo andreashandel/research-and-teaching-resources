@@ -20,8 +20,6 @@ output:
 
 * [Swirl](http://swirlstats.com/) - An R package that teaches R interactively inside R. Not as polished as DataCamp, but good interactivity, great motivating feedback/messages, beginner and intermediate levels. Completely free.
 
-* [Try R, a free course at codeschool.com](https://www.codeschool.com/courses/try-r)
-
 
 # R books and tutorials
 

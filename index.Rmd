@@ -5,12 +5,6 @@ output:
     toc: FALSE
 ---
 
-```{r, include = FALSE}
-#just so I can use emoticons
-#devtools::install_github("hadley/emo")
-library(emo)
-```
-
 # Overview
 
 This small website contains a collection of lists with links to various resources that are related to my ([Andreas Handel](https://www.andreashandel.com/)) research and teaching, as well as some general (academic) career content.

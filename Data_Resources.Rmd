@@ -13,8 +13,6 @@ __This list needs cleaning.__
 
 ## General Data related resources
 
-* The [Project Open Data Dashboard](https://labs.data.gov/dashboard/) gives overview statistics of available government data from various agencies.
-
 * [Guide to Open Data Publishing & Analytics](http://blog.kaggle.com/2016/10/21/a-guide-to-open-data-publishing-analytics/) - A good article describing best practices for publishing data openly. Is also a good read for those who want to analyze other's data.
 
 * [A short list of data related R packages](https://rviews.rstudio.com/2017/11/01/r-data-packages/) - packages that either access data or include data
@@ -66,7 +64,6 @@ __This list needs cleaning.__
 
 * [Database to search health related government data](https://www.healthdata.gov/)
 
-* [A list hosted by Microsoft with links to various data sources](http://mran.revolutionanalytics.com/documents/data/)
 
 
 ## Infectious disease specific
