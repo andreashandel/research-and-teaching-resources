@@ -1,0 +1,46 @@
+---
+title: "Data Analysis and Statistics"
+subtitle: ""
+author: "[Andreas Handel](https://www.andreashandel.com/)"
+date: "Last modified: `r file.mtime(knitr::current_input())`"
+output: 
+  html_document:
+    toc_depth: 3
+---
+
+
+
+
+
+
+
+## Visualization
+
+* [R Graph Gallery](http://www.r-graph-gallery.com/): Has lots of examples of graphs and plots in R, including the underlying code that produced the graph. Great place to find a graph similar to one you'd like to make, take the code and adjust it.
+
+
+## Missing Data/Imputation
+
+* Check out R packages mi, mice, Amelia, missforest, imputation
+
+* Little & Rubin "Statistical Analysis with Missing Data, 2nd Edition"
+
+
+
+## p-values
+
+
+
+## Epidemiology specific topics
+
+* [tableone](https://cran.r-project.org/package=tableone) - A package that allows for convenient creation of a descriptive table based on a data frame.
+
+* [compareGroups](https://cran.r-project.org/package=compareGroups) - A package that allows for convenient creation of result tables from linear and logistic (and related) models.
+
+* The [R survival package](https://cran.r-project.org/web/packages/survival/index.html) - Lots of functionality for survival analysis.
+
+## Time-series analysis
+
+* The [R survival package](https://cran.r-project.org/web/packages/survival/index.html) - Lots of functionality for survival analysis.
+
+* [Forecasting: principles and practice](https://otexts.com/fpp2/)

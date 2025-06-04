@@ -5,65 +5,12 @@ output:
     toc: FALSE
 ---
 
-# Overview
 
-This small website contains a collection of lists with links to various resources that are related to my ([Andreas Handel](https://www.andreashandel.com/)) research and teaching, as well as some general (academic) career content.
+This small website used to contain a collection of lists with links to various resources that are related to my ([Andreas Handel](https://www.andreashandel.com/)) research and teaching.
 
-This mainly a collection of links to other sources. Some pages contain a few of my own thoughts on specific topics. The content is heavily biased toward my work. For research topics, the focus is in statistics/data analysis, infectious disease modeling and the R programming language. The other lists focus on research/academic careers and topics related to it.
+Almost all content has been moved to to my [Modern Applied Data Analysis (MADA) course website](https://andreashandel.github.io/MADAcourse/). A lot was outdated too. I therefore decided to shut down this website, this page only exists so you are not having a 404 error when coming here 😁.
 
-Some lists contain a decent amount of information, others are fairly short/empty. All of the lists are subject to (infrequent) change/updates - whenever I get to it or come across sources I find interesting enough to 'bookmark' by adding them to one of the lists.
+Please visit the MADA course website for anything related to data analysis (see the 'Resources' section of the page) and my personal website for other possibly useful content.
 
-The main reason for these lists is so I can find stuff again. If others benefit from some of the listed links, even better.
+If there was something here that you can't find and really want to see again, let me know.
 
-If you have suggestions for updates/improvements or something doesn't work, let me know (using github issues or pull requests).  
-
-
-# Content
-
-## General Lists
-
-The following lists contain mostly links and some of my own thoughts on specific topics.
-
-- [Career Topics:](./Career_Resources.html) (Academic/research) career related resources. 
-
-- [Data Sources:](./Data_Resources.html) Where to find potentially interesting data.
-
-- [Data Analysis and Stats:](./Dataanalysis_Resources.html) Data analysis and statistics related tasks, with a focus on R.
-
-- [R Coding Topics:](./R_Resources.html) Resources for learning R in general and with learning specific R topics.
-
-- [Reproducible Research, Workflow management:](./ReproducibleResearch_Resources.html) Reproducible research (with a focus on the data analysis aspect) and links to tools (RMarkdown).
-
-- [Teaching](./Teaching_Resources.html) - various links to teaching-related topics and tools.
-
- 
-## Cheat Sheets
-
-The following documents contain collections of R code snippets and pointers for things I need to do fairly often, but not often enough that I can remember.
-
-- [Data Cleaning:](./Cheatsheet_Rdatacleaning.html) A list of commands for doing data cleaning/wrangling tasks.
- 
-- [Plotting:](./Cheatsheet_Rplotting.html) A list of commands for plotting in R (both base plot and ggplot).
-
-- [Text Manipulation:](./Cheatsheet_Textmanipulation.html) A list of commands for working with text.
-
-
-
-# Acknowledgements
-
-This site is maintained by [Andreas Handel](https://www.andreashandel.com/).
-
-```{r, results = "asis", echo = FALSE, message = FALSE, warning=FALSE}
-#the following code snipped is taken from Hadley's R4DS intro page
-library(dplyr)
-contributors <- readr::read_csv("contributors.csv", col_types = list())
-contributors <- contributors %>% 
-  mutate(
-    link = glue::glue("[\\@{GithubID}](https://github.com/{GithubID})"),
-    desc = ifelse(is.na(LastName), link, glue::glue("{FirstName} {LastName} ({link})"))
-  )
-cat("The following individuals have contributed to improving the course:\n")
-cat(paste0(contributors$desc, collapse = ", "))
-```
-
-The site is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/). Linked materials are governed by their own licenses. 

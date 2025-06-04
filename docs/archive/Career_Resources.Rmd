@@ -1,0 +1,44 @@
+---
+title: "Career Topics"
+subtitle: ""
+author: "[Andreas Handel](https://www.andreashandel.com/)"
+date: "Last modified: `r file.mtime(knitr::current_input())`"
+output: 
+  html_document:
+    toc_depth: 3
+---
+
+
+## General
+
+- [(Academic) career related essays](https://www.insidehighered.com/career-advice/carpe-careers)
+
+- [A collection of resources on (scientific) career planning](http://www.nature.com/scitable/topic/career-planning-14121550) from the Nature Publishing Group.
+
+- A resource from the NIH toward [Broadening Experiences in Scientific Training](http://www.nihbest.org/)
+
+
+## Individual development plan (IDP)
+
+- [myIDP from AAAS.](https://myidp.sciencecareers.org/) Free IDP focused on scientific career planning.
+
+
+## Postdoc related
+
+- [Thoughts on doing a postdoc or not](https://www.insidehighered.com/advice/2016/08/23/should-you-pursue-postdoc-or-not-essay)
+
+
+## Data Science Internships
+
+* [Insight Data Science](http://www.triageconsulting.com/) arranges short internships with some of the big names.
+
+
+## Academic job search/hiring
+
+* [This blog post provides a nice description how applications for faculty positions are reviewed](https://chroniclevitae.com/news/1599-reading-your-application-file). From my own experience having been on and chaired several faculty searches, I think it's a fairly accurate description.
+
+
+## Academic career
+
+
+* [Tips to have a productive PhD](https://www.castoredc.com/blog/50-actionable-tips-to-help-you-survive-your-phd/)
